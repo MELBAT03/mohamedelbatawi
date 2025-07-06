@@ -1,0 +1,148 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\cmsis\arm-none-eabi\include\c++\9.2.1\ext\pb_ds\detail\rc_binomial_heap_\insert_fn_imps.hpp'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header is missing header guard
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+      FileOffset:      0
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+          Offset:          0
+          Length:          0
+          ReplacementText: "#ifndef C++_9_2_1_EXT_PB_DS_DETAIL_RC_BINOMIAL_HEAP__INSERT_FN_IMPS_HPP\n#define C++_9_2_1_EXT_PB_DS_DETAIL_RC_BINOMIAL_HEAP__INSERT_FN_IMPS_HPP\n\n"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+          Offset:          4391
+          Length:          0
+          ReplacementText: "\n#endif\n"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''PB_DS_CLASS_T_DEC'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+      FileOffset:      1760
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''PB_DS_CLASS_C_DEC'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+      FileOffset:      1795
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''PB_DS_CLASS_C_DEC'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+      FileOffset:      1830
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''const_reference'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+      FileOffset:      1856
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''PB_DS_CLASS_T_DEC'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+      FileOffset:      2589
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''PB_DS_CLASS_C_DEC'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+      FileOffset:      2614
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''point_iterator'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+      FileOffset:      2642
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''const_reference'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+      FileOffset:      2661
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''PB_DS_CLASS_T_DEC'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+      FileOffset:      2855
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''PB_DS_CLASS_C_DEC'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+      FileOffset:      2890
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''PB_DS_CLASS_C_DEC'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+      FileOffset:      2923
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''node_pointer'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+      FileOffset:      2967
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''PB_DS_CLASS_T_DEC'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+      FileOffset:      3916
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''PB_DS_CLASS_C_DEC'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/rc_binomial_heap_/insert_fn_imps.hpp'
+      FileOffset:      3941
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

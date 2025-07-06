@@ -1,0 +1,497 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\cmsis\arm-none-eabi\include\c++\9.2.1\decimal\decimal.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+      FileOffset:      1346
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          1346
+          Length:          21
+          ReplacementText: 'C++_9_2_1_DECIMAL_DECIMAL_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          1377
+          Length:          21
+          ReplacementText: 'C++_9_2_1_DECIMAL_DECIMAL_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          17433
+          Length:          33
+          ReplacementText: 'endif // C++_9_2_1_DECIMAL_DECIMAL_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_DECIMAL_IMPL'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+      FileOffset:      1377
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-pragma-system-header-outside-header
+    DiagnosticMessage:
+      Message:         '#pragma system_header ignored in main file'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+      FileOffset:      1416
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''namespace'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+      FileOffset:      1433
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''std'' is non-const and globally accessible, consider making it const'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+      FileOffset:      1443
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'expected '';'' after top level declarator'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+      FileOffset:      1446
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          1446
+          Length:          0
+          ReplacementText: ';'
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_DEFINE_DECIMAL_COMPOUND_ASSIGNMENTS'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+      FileOffset:      2567
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          2567
+          Length:          36
+          ReplacementText: DEFINE_DECIMAL_COMPOUND_ASSIGNMENTS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          3297
+          Length:          36
+          ReplacementText: DEFINE_DECIMAL_COMPOUND_ASSIGNMENTS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          3355
+          Length:          36
+          ReplacementText: DEFINE_DECIMAL_COMPOUND_ASSIGNMENTS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          3413
+          Length:          36
+          ReplacementText: DEFINE_DECIMAL_COMPOUND_ASSIGNMENTS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          3471
+          Length:          36
+          ReplacementText: DEFINE_DECIMAL_COMPOUND_ASSIGNMENTS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          3531
+          Length:          36
+          ReplacementText: DEFINE_DECIMAL_COMPOUND_ASSIGNMENTS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          3589
+          Length:          36
+          ReplacementText: DEFINE_DECIMAL_COMPOUND_ASSIGNMENTS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          3647
+          Length:          36
+          ReplacementText: DEFINE_DECIMAL_COMPOUND_ASSIGNMENTS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          3705
+          Length:          36
+          ReplacementText: DEFINE_DECIMAL_COMPOUND_ASSIGNMENTS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          3765
+          Length:          36
+          ReplacementText: DEFINE_DECIMAL_COMPOUND_ASSIGNMENTS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          3824
+          Length:          36
+          ReplacementText: DEFINE_DECIMAL_COMPOUND_ASSIGNMENTS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          3883
+          Length:          36
+          ReplacementText: DEFINE_DECIMAL_COMPOUND_ASSIGNMENTS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          3942
+          Length:          36
+          ReplacementText: DEFINE_DECIMAL_COMPOUND_ASSIGNMENTS
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_DEFINE_DECIMAL_UNARY_OP'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+      FileOffset:      9057
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          9057
+          Length:          24
+          ReplacementText: DEFINE_DECIMAL_UNARY_OP
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          9248
+          Length:          24
+          ReplacementText: DEFINE_DECIMAL_UNARY_OP
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          9290
+          Length:          24
+          ReplacementText: DEFINE_DECIMAL_UNARY_OP
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          9332
+          Length:          24
+          ReplacementText: DEFINE_DECIMAL_UNARY_OP
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          9375
+          Length:          24
+          ReplacementText: DEFINE_DECIMAL_UNARY_OP
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          9417
+          Length:          24
+          ReplacementText: DEFINE_DECIMAL_UNARY_OP
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          9459
+          Length:          24
+          ReplacementText: DEFINE_DECIMAL_UNARY_OP
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_DEFINE_DECIMAL_BINARY_OP_WITH_DEC'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+      FileOffset:      9607
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          9607
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          11360
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          11486
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          11560
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          11634
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          11760
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          11836
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          11912
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          11988
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          12064
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          12196
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          12322
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          12396
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          12470
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          12596
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          12672
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          12748
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          12824
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          12900
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          13032
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          13158
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          13232
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          13306
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          13432
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          13508
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          13584
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          13660
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          13736
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          13868
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          13994
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          14068
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          14142
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          14268
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          14344
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          14420
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          14496
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          14572
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_DEC
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_DEFINE_DECIMAL_BINARY_OP_BOTH'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+      FileOffset:      9867
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          9867
+          Length:          30
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_BOTH
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_DEFINE_DECIMAL_BINARY_OP_WITH_INT'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+      FileOffset:      10605
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          10605
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_INT
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          11434
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_INT
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          11708
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_INT
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          12141
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_INT
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          12270
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_INT
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          12544
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_INT
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          12977
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_INT
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          13106
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_INT
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          13380
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_INT
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          13813
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_INT
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          13942
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_INT
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          14216
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_INT
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          14649
+          Length:          34
+          ReplacementText: DEFINE_DECIMAL_BINARY_OP_WITH_INT
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_DEFINE_DECIMAL_COMPARISONS'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+      FileOffset:      15439
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          15439
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          16364
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          16410
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          16456
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          16503
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          16549
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          16595
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          16642
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          16688
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          16734
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          16781
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          16827
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          16873
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          16920
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          16966
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          17012
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          17059
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          17105
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/decimal/decimal.h'
+          Offset:          17151
+          Length:          27
+          ReplacementText: DEFINE_DECIMAL_COMPARISONS
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

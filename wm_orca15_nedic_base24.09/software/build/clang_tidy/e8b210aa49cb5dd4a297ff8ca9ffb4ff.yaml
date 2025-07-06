@@ -1,0 +1,169 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\cmsis\arm-none-eabi\include\c++\9.2.1\bits\stl_vector.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+      FileOffset:      2406
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+          Offset:          2406
+          Length:          13
+          ReplacementText: 'C++_9_2_1_BITS_STL_VECTOR_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+          Offset:          2429
+          Length:          13
+          ReplacementText: 'C++_9_2_1_BITS_STL_VECTOR_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+          Offset:          66900
+          Length:          25
+          ReplacementText: 'endif // C++_9_2_1_BITS_STL_VECTOR_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_STL_VECTOR_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+      FileOffset:      2429
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-include-order
+    DiagnosticMessage:
+      Message:         '#includes are not sorted properly'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+      FileOffset:      2448
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+          Offset:          2457
+          Length:          33
+          ReplacementText: "<bits/concept_check.h>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+          Offset:          2531
+          Length:          23
+          ReplacementText: "<bits/stl_iterator_base_funcs.h>\r"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         '''bits/stl_iterator_base_funcs.h'' file not found'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+      FileOffset:      2457
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+          FileOffset:      2457
+          Length:          32
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''std'' is non-const and globally accessible, consider making it const'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+      FileOffset:      2861
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_ASAN_ANNOTATE_REINIT'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+      FileOffset:      8537
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+          Offset:          8537
+          Length:          29
+          ReplacementText: GLIBCXX_ASAN_ANNOTATE_REINIT
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_ASAN_ANNOTATE_GROW'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+      FileOffset:      8576
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+          Offset:          8576
+          Length:          27
+          ReplacementText: GLIBCXX_ASAN_ANNOTATE_GROW
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+          Offset:          39951
+          Length:          27
+          ReplacementText: GLIBCXX_ASAN_ANNOTATE_GROW
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_ASAN_ANNOTATE_GREW'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+      FileOffset:      8616
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+          Offset:          8616
+          Length:          27
+          ReplacementText: GLIBCXX_ASAN_ANNOTATE_GREW
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+          Offset:          40109
+          Length:          27
+          ReplacementText: GLIBCXX_ASAN_ANNOTATE_GREW
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_ASAN_ANNOTATE_SHRINK'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+      FileOffset:      8656
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+          Offset:          8656
+          Length:          29
+          ReplacementText: GLIBCXX_ASAN_ANNOTATE_SHRINK
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+          Offset:          40964
+          Length:          29
+          ReplacementText: GLIBCXX_ASAN_ANNOTATE_SHRINK
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+          Offset:          61434
+          Length:          29
+          ReplacementText: GLIBCXX_ASAN_ANNOTATE_SHRINK
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_ASAN_ANNOTATE_BEFORE_DEALLOC'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+      FileOffset:      8698
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+          Offset:          8698
+          Length:          37
+          ReplacementText: GLIBCXX_ASAN_ANNOTATE_BEFORE_DEALLOC
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/bits/stl_vector.h'
+          Offset:          22572
+          Length:          37
+          ReplacementText: GLIBCXX_ASAN_ANNOTATE_BEFORE_DEALLOC
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

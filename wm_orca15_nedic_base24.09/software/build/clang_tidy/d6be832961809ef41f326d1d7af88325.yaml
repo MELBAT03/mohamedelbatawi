@@ -1,0 +1,325 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\cmsis\arm-none-eabi\include\c++\9.2.1\parallel\multiway_merge.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+      FileOffset:      1522
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          1522
+          Length:          34
+          ReplacementText: 'C++_9_2_1_PARALLEL_MULTIWAY_MERGE_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          1566
+          Length:          34
+          ReplacementText: 'C++_9_2_1_PARALLEL_MULTIWAY_MERGE_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          72559
+          Length:          46
+          ReplacementText: 'endif // C++_9_2_1_PARALLEL_MULTIWAY_MERGE_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_PARALLEL_MULTIWAY_MERGE_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+      FileOffset:      1566
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         '''vector'' file not found'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+      FileOffset:      1613
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          FileOffset:      1613
+          Length:          8
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-include-order
+    DiagnosticMessage:
+      Message:         '#includes are not sorted properly'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+      FileOffset:      1685
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          1694
+          Length:          22
+          ReplacementText: "<parallel/losertree.h>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          1726
+          Length:          23
+          ReplacementText: "<parallel/multiseq_selection.h>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          1759
+          Length:          32
+          ReplacementText: "<parallel/parallel.h>\r"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_PARALLEL_LENGTH'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+      FileOffset:      1946
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          1946
+          Length:          24
+          ReplacementText: GLIBCXX_PARALLEL_LENGTH
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          18609
+          Length:          24
+          ReplacementText: GLIBCXX_PARALLEL_LENGTH
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          32911
+          Length:          24
+          ReplacementText: GLIBCXX_PARALLEL_LENGTH
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          36821
+          Length:          24
+          ReplacementText: GLIBCXX_PARALLEL_LENGTH
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          38179
+          Length:          24
+          ReplacementText: GLIBCXX_PARALLEL_LENGTH
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          41014
+          Length:          24
+          ReplacementText: GLIBCXX_PARALLEL_LENGTH
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          43328
+          Length:          24
+          ReplacementText: GLIBCXX_PARALLEL_LENGTH
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          45623
+          Length:          24
+          ReplacementText: GLIBCXX_PARALLEL_LENGTH
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gnu_parallel'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+      FileOffset:      2018
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          2018
+          Length:          14
+          ReplacementText: gnu_parallel
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''__gnu_parallel'' is non-const and globally accessible, consider making it const'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+      FileOffset:      2018
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_PARALLEL_MERGE_3_CASE'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+      FileOffset:      9673
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          9673
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_3_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          10260
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_3_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          10316
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_3_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          10372
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_3_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          10428
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_3_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          10484
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_3_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          10540
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_3_CASE
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_PARALLEL_DECISION'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+      FileOffset:      13170
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          13170
+          Length:          26
+          ReplacementText: GLIBCXX_PARALLEL_DECISION
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          13607
+          Length:          26
+          ReplacementText: GLIBCXX_PARALLEL_DECISION
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          13707
+          Length:          26
+          ReplacementText: GLIBCXX_PARALLEL_DECISION
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          13777
+          Length:          26
+          ReplacementText: GLIBCXX_PARALLEL_DECISION
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          13947
+          Length:          26
+          ReplacementText: GLIBCXX_PARALLEL_DECISION
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          14017
+          Length:          26
+          ReplacementText: GLIBCXX_PARALLEL_DECISION
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          14105
+          Length:          26
+          ReplacementText: GLIBCXX_PARALLEL_DECISION
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_PARALLEL_MERGE_4_CASE'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+      FileOffset:      14169
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          14169
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          14969
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          15032
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          15095
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          15158
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          15221
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          15284
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          15347
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          15410
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          15473
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          15536
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          15599
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          15662
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          15725
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          15788
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          15851
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          15914
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          15977
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          16040
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          16103
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          16166
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          16229
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          16292
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          16355
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/parallel/multiway_merge.h'
+          Offset:          16418
+          Length:          30
+          ReplacementText: GLIBCXX_PARALLEL_MERGE_4_CASE
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

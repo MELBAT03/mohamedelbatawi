@@ -1,0 +1,170 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\cmsis\arm-none-eabi\include\sys\select.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+      FileOffset:      8
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+          Offset:          8
+          Length:          13
+          ReplacementText: SYS_SELECT_H
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+          Offset:          31
+          Length:          13
+          ReplacementText: SYS_SELECT_H
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+          Offset:          2371
+          Length:          24
+          ReplacementText: 'endif // SYS_SELECT_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_SYS_SELECT_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+      FileOffset:      31
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-include-order
+    DiagnosticMessage:
+      Message:         '#includes are not sorted properly'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+      FileOffset:      520
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+          Offset:          529
+          Length:          14
+          ReplacementText: "<sys/_sigset.h>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+          Offset:          553
+          Length:          16
+          ReplacementText: "<sys/_timeval.h>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+          Offset:          579
+          Length:          17
+          ReplacementText: "<sys/cdefs.h>\r"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_SIGSET_T_DECLARED'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+      FileOffset:      668
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+          Offset:          668
+          Length:          18
+          ReplacementText: SIGSET_T_DECLARED
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_SYS_TYPES_FD_SET'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+      FileOffset:      738
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+          Offset:          738
+          Length:          17
+          ReplacementText: SYS_TYPES_FD_SET
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_howmany'', which is reserved in the global namespace'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+      FileOffset:      1181
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+          Offset:          1181
+          Length:          8
+          ReplacementText: howmany
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+          Offset:          1365
+          Length:          8
+          ReplacementText: howmany
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''_types_fd_set'' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 8 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+      FileOffset:      1330
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+          Offset:          1399
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(8)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(8)))" to align struct ''_types_fd_set'' to 8 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+        FileOffset:      1330
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_types_fd_set'', which is reserved in the global namespace'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+      FileOffset:      1330
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+          Offset:          1330
+          Length:          13
+          ReplacementText: types_fd_set
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_types_fd_set'', which is reserved in the global namespace'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+      FileOffset:      1400
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+          Offset:          1400
+          Length:          13
+          ReplacementText: types_fd_set
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+      FileOffset:      1787
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+          Offset:          1787
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/sys/select.h'
+          Offset:          1788
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

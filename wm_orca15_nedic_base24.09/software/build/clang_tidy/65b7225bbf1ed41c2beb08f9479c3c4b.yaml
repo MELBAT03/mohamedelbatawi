@@ -1,0 +1,489 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\cmsis\arm-none-eabi\include\c++\9.2.1\ext\pb_ds\detail\thin_heap_\thin_heap_.hpp'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      1757
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          1757
+          Length:          19
+          ReplacementText: 'C++_9_2_1_EXT_PB_DS_DETAIL_THIN_HEAP__THIN_HEAP__HPP'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          1786
+          Length:          19
+          ReplacementText: 'C++_9_2_1_EXT_PB_DS_DETAIL_THIN_HEAP__THIN_HEAP__HPP'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         '''algorithm'' file not found'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      1818
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          FileOffset:      1818
+          Length:          11
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-include-order
+    DiagnosticMessage:
+      Message:         '#includes are not sorted properly'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      1831
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          1840
+          Length:          36
+          ReplacementText: "<debug/debug.h>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          1886
+          Length:          34
+          ReplacementText: "<ext/pb_ds/detail/cond_dealtor.hpp>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          2023
+          Length:          16
+          ReplacementText: "<ext/pb_ds/detail/type_utils.hpp>\r"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gnu_pbds'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      2052
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          2052
+          Length:          10
+          ReplacementText: gnu_pbds
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvmlibc-implementation-in-namespace
+    DiagnosticMessage:
+      Message:         '''__llvm_libc'' needs to be the outermost namespace'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      2052
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-special-member-functions
+    DiagnosticMessage:
+      Message:         'class ''thin_heap'' defines a non-default destructor and a copy constructor but does not define a copy assignment operator, a move constructor or a move assignment operator'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      2685
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      2781
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          2781
+          Length:          70
+          ReplacementText: 'using __rebind_a = typename _Alloc::template rebind<Value_Type>::other'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__rebind_a'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      2841
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      2860
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          2860
+          Length:          61
+          ReplacementText: 'using base_type = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      2948
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          2948
+          Length:          40
+          ReplacementText: 'using node = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      2997
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          2997
+          Length:          55
+          ReplacementText: 'using node_pointer = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      3061
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          3061
+          Length:          66
+          ReplacementText: 'using node_const_pointer = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      3151
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          3151
+          Length:          33
+          ReplacementText: 'using value_type = Value_Type'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      3193
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          3193
+          Length:          26
+          ReplacementText: 'using cmp_fn = Cmp_Fn'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      3228
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          3228
+          Length:          34
+          ReplacementText: 'using allocator_type = _Alloc'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      3271
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          3271
+          Length:          46
+          ReplacementText: 'using size_type = typename _Alloc::size_type'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      3326
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          3326
+          Length:          58
+          ReplacementText: 'using difference_type = typename _Alloc::difference_type'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      3395
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          3395
+          Length:          45
+          ReplacementText: 'using pointer = typename __rebind_a::pointer'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      3449
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          3449
+          Length:          56
+          ReplacementText: 'using const_pointer = typename __rebind_a::const_pointer'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      3514
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          3514
+          Length:          49
+          ReplacementText: 'using reference = typename __rebind_a::reference'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      3572
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          3572
+          Length:          65
+          ReplacementText: 'using const_reference = typename __rebind_a::const_reference'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      3648
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          3648
+          Length:          58
+          ReplacementText: 'using point_iterator = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      3715
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          3715
+          Length:          70
+          ReplacementText: 'using point_const_iterator = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      3794
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          3794
+          Length:          47
+          ReplacementText: 'using iterator = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      3850
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          3850
+          Length:          58
+          ReplacementText: 'using const_iterator = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      3950
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          3928
+          Length:          14
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          3971
+          Length:          0
+          ReplacementText: ' -> point_iterator'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      4074
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          4051
+          Length:          15
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          4085
+          Length:          0
+          ReplacementText: ' -> const_reference'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      4253
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          4236
+          Length:          9
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          4267
+          Length:          0
+          ReplacementText: ' -> size_type'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-explicit-constructor
+    DiagnosticMessage:
+      Message:         single-argument constructors must be marked explicit to avoid unintentional implicit conversions
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      4448
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          4448
+          Length:          0
+          ReplacementText: 'explicit '
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      4935
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          FileOffset:      4956
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      5834
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          5817
+          Length:          9
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          5846
+          Length:          0
+          ReplacementText: ' -> size_type'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      6010
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          5990
+          Length:          12
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          6048
+          Length:          0
+          ReplacementText: ' -> node_pointer'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-c-arrays
+    DiagnosticMessage:
+      Message:         'do not declare C-style arrays, use std::array<> instead'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      6277
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-macro-usage
+    DiagnosticMessage:
+      Message:         'function-like macro ''PB_DS_ASSERT_NODE_CONSISTENT'' used; consider a ''constexpr'' template function'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      7849
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-macro-usage
+    DiagnosticMessage:
+      Message:         'function-like macro ''PB_DS_ASSERT_AUX_NULL'' used; consider a ''constexpr'' template function'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      8003
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      8057
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          8057
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          8058
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-include-order
+    DiagnosticMessage:
+      Message:         '#includes are not sorted properly'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+      FileOffset:      8234
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          8243
+          Length:          48
+          ReplacementText: "<ext/pb_ds/detail/thin_heap_/erase_fn_imps.hpp>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          8417
+          Length:          48
+          ReplacementText: "<ext/pb_ds/detail/thin_heap_/split_join_fn_imps.hpp>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/thin_heap_/thin_heap_.hpp'
+          Offset:          8475
+          Length:          53
+          ReplacementText: "<ext/pb_ds/detail/thin_heap_/trace_fn_imps.hpp>\r"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

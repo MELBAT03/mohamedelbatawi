@@ -1,0 +1,100 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\components\led_matrix\led_matrix.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/led_matrix/led_matrix.h'
+      FileOffset:      8
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/led_matrix/led_matrix.h'
+          Offset:          8
+          Length:          12
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_COMPONENTS_LED_MATRIX_LED_MATRIX_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/led_matrix/led_matrix.h'
+          Offset:          30
+          Length:          12
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_COMPONENTS_LED_MATRIX_LED_MATRIX_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  misc-confusable-identifiers
+    DiagnosticMessage:
+      Message:         '''SSD_I_SYMBOL'' is confusable with ''SSD_1_SYMBOL'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/led_matrix/led_matrix.h'
+      FileOffset:      536
+      Replacements:    []
+    Notes:
+      - Message:         other declaration found here
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/led_matrix/led_matrix.h'
+        FileOffset:      213
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to padding; only needs 122 bytes but is using 124 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/led_matrix/led_matrix.h'
+      FileOffset:      1336
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/led_matrix/led_matrix.h'
+          Offset:          1593
+          Length:          0
+          ReplacementText: ' __attribute__((packed))'
+    Notes:
+      - Message:         'use "__attribute__((packed))" to reduce the amount of padding applied to struct '''''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/led_matrix/led_matrix.h'
+        FileOffset:      1336
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 128 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/led_matrix/led_matrix.h'
+      FileOffset:      1336
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/led_matrix/led_matrix.h'
+          Offset:          1593
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(128)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(128)))" to align struct '''' to 128 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/led_matrix/led_matrix.h'
+        FileOffset:      1336
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 32 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/led_matrix/led_matrix.h'
+      FileOffset:      1618
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/led_matrix/led_matrix.h'
+          Offset:          1988
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(32)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(32)))" to align struct '''' to 32 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/led_matrix/led_matrix.h'
+        FileOffset:      1618
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

@@ -1,0 +1,329 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\holtek_12366\include\ht32f1xxxx_wdt.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         '"Please add "USE_HT32Fxxxxx_xx" define into C Preprocessor Symbols of the Project configuration."'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_01.h'
+      FileOffset:      1817
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      1820
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          1820
+          Length:          18
+          ReplacementText: HT32F1XXXX_WDT_H
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          1848
+          Length:          18
+          ReplacementText: HT32F1XXXX_WDT_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__HT32F1XXXX_WDT_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      1848
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      3053
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          3053
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          3062
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      3141
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          3141
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          3150
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      3229
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          3229
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          3238
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      3317
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          3317
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          3326
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      3405
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          3405
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          3414
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      3494
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          3494
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          3503
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      3583
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          3583
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          3592
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      3672
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          3672
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          3681
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      4195
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          4195
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          4203
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      4285
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          4285
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          4293
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      4376
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          4376
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          4384
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      4722
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          4722
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          4730
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      4812
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          4812
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          4820
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      4898
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          4898
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          4902
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      4969
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          4969
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          4973
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      5294
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          5294
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          5304
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+      FileOffset:      5382
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          5382
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_wdt.h'
+          Offset:          5392
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

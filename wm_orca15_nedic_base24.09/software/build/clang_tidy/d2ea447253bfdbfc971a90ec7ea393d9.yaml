@@ -1,0 +1,2920 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\holtek_12366\include\core_cm3.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         too many errors emitted, stopping now
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header is missing header guard
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      0
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          0
+          Length:          0
+          ReplacementText: "#ifndef CORE_CM3_H\n#define CORE_CM3_H\n\n"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          100475
+          Length:          0
+          ReplacementText: "\n#endif\n"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__CORE_CM3_H_GENERIC'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      2142
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          2142
+          Length:          20
+          ReplacementText: CORE_CM3_H_GENERIC
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__CM3_CMSIS_VERSION_MAIN'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      3061
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          3061
+          Length:          24
+          ReplacementText: CM3_CMSIS_VERSION_MAIN
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__CM3_CMSIS_VERSION_SUB'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      3178
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          3178
+          Length:          23
+          ReplacementText: CM3_CMSIS_VERSION_SUB
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__CM3_CMSIS_VERSION'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      3295
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          3295
+          Length:          19
+          ReplacementText: CM3_CMSIS_VERSION
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__CORTEX_M'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      3487
+      Replacements:
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          14274
+          Length:          10
+          ReplacementText: CORTEX_M
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          3487
+          Length:          10
+          ReplacementText: CORTEX_M
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          9474
+          Length:          10
+          ReplacementText: CORTEX_M
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          11362
+          Length:          10
+          ReplacementText: CORTEX_M
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          13253
+          Length:          10
+          ReplacementText: CORTEX_M
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          15302
+          Length:          10
+          ReplacementText: CORTEX_M
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__ASM'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      3946
+      Replacements:
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          9970
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          10230
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          10512
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          10734
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          11105
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          11412
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          11712
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          12156
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          12605
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          13197
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          14606
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          15328
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          16121
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          16618
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          17132
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          17680
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          18228
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          18536
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          19780
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          3946
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          9066
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          9362
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          9678
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          10021
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          10347
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          10677
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          11007
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          11372
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          11746
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          12102
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          12466
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          12838
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          13169
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          13518
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          13813
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          14144
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          14490
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          14834
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          15177
+          Length:          5
+          ReplacementText: ASM
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__INLINE'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      4063
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          4063
+          Length:          8
+          ReplacementText: INLINE
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__STATIC_INLINE'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      4180
+      Replacements:
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          9931
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          10191
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          10473
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          10695
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          11066
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          11373
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          11673
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          11976
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          12528
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          13010
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          13691
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          14529
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          14943
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          15734
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          16528
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          17029
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          17575
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          18123
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          18495
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          19706
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          4180
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          87532
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          88488
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          88886
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          89266
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          89758
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          90143
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          90507
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          90968
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          91421
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          92275
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          93315
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          94683
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          95514
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          97195
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          98955
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          99507
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          100050
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          9020
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          9315
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          9605
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          9962
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          10277
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          10607
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          10937
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          11294
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          11684
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          12024
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          12404
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          12765
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          13110
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          13466
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          13760
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          14071
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          14433
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          14759
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          15114
+          Length:          15
+          ReplacementText: STATIC_INLINE
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__FPU_USED'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      5532
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          5532
+          Length:          10
+          ReplacementText: FPU_USED
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  'clang-diagnostic-#warnings'
+    DiagnosticMessage:
+      Message:         '"Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      5811
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-include-order
+    DiagnosticMessage:
+      Message:         '#includes are not sorted properly'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      6657
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          6666
+          Length:          86
+          ReplacementText: "<core_cmFunc.h>                 /* Core Function Access                            */\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          6858
+          Length:          86
+          ReplacementText: "<stdint.h>                      /* standard types definitions                      */\r"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__CORE_CM3_H_DEPENDANT'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      7084
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          7084
+          Length:          22
+          ReplacementText: CORE_CM3_H_DEPENDANT
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__I'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      8345
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          8345
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          15327
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          17077
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          17202
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          17327
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          17452
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          17577
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          34061
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          36089
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          40120
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          40491
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          40635
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          40748
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          40861
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          40974
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          41087
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          41200
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          41313
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          41426
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          41539
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          41652
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          41765
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          41878
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          47445
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          58478
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          58693
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          58840
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          58919
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          59011
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          59123
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          59204
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          59627
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          59709
+          Length:          3
+          ReplacementText: I
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__O'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      8451
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          8451
+          Length:          3
+          ReplacementText: O
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          14590
+          Length:          3
+          ReplacementText: O
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          39068
+          Length:          3
+          ReplacementText: O
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          39089
+          Length:          3
+          ReplacementText: O
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          39202
+          Length:          3
+          ReplacementText: O
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          39315
+          Length:          3
+          ReplacementText: O
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          40007
+          Length:          3
+          ReplacementText: O
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          40378
+          Length:          3
+          ReplacementText: O
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          76257
+          Length:          3
+          ReplacementText: O
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__IO'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      8549
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          8549
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          13732
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          13875
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          14017
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          14160
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          14303
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          14446
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          15452
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          15577
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          15702
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          15827
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          15952
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          16077
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          16202
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          16327
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          16452
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          16577
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          16702
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          16827
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          16952
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          17733
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          35768
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          35875
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          35982
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          39572
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          39717
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          39862
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          40233
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          46654
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          46767
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          46880
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          46993
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          47106
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          47219
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          47332
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          47558
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          47671
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          47784
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          47928
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          48041
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          48154
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          48298
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          48411
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          48524
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          48668
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          48781
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          48894
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          57951
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          58064
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          58202
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          58343
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          58585
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          59296
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          59424
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          59509
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          76141
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          76373
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          76489
+          Length:          4
+          ReplacementText: IO
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 32 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      9456
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          10395
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(32)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(32)))" to align struct '''' to 32 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      9456
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 8 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      10711
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          10923
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(8)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(8)))" to align struct '''' to 8 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      10711
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 64 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      11246
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          12479
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(64)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(64)))" to align struct '''' to 64 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      11246
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 16 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      12782
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          13190
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct '''' to 16 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      12782
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 128 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      13719
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          14700
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(128)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(128)))" to align struct '''' to 128 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      13719
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '8 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      13751
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '24 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      13867
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '8 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      13894
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '24 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      14009
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '8 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      14036
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '24 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      14152
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '8 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      14179
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '24 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      14295
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '8 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      14322
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '56 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      14438
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '240 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      14463
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '644 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      14581
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 128 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      15314
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          17857
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(128)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(128)))" to align struct '''' to 128 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      15314
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '12 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      16095
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '5 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      17726
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 16 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      34017
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          34371
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct '''' to 16 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      34017
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 16 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      35755
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          36195
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct '''' to 16 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      35755
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 4096 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      39055
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          41990
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(4096)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(4096)))" to align struct '''' to 4096 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      39055
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '32 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      39435
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '864 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      39563
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '15 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      39709
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '15 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      39854
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '29 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      39999
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '43 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      40370
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '6 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      40628
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 128 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      46641
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          49006
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(128)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(128)))" to align struct '''' to 128 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      46641
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 128 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      57938
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          59792
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(128)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(128)))" to align struct '''' to 128 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      57938
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '55 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      58335
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '131 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      58469
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '759 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      58831
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '39 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      59416
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '8 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      59620
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 16 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      76128
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          76604
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct '''' to 16 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      76128
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-init-variables
+    DiagnosticMessage:
+      Message:         'variable ''reg_value'' is not initialized'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      87617
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          87626
+          Length:          0
+          ReplacementText: ' = 0'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x07 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      87686
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      87767
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''SCB'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85284
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      87888
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SCB_AIRCR_VECTKEY_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      22909
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      22921
+            Length:          21
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      87912
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SCB_AIRCR_PRIGROUP_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      23678
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      23685
+            Length:          22
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      88070
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x5FA is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      88080
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      88132
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      88152
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '8 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      88152
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      88237
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''SCB'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85284
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      88558
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      88559
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''SCB'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85284
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      88572
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SCB_AIRCR_PRIGROUP_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      23678
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      23685
+            Length:          22
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''IRQn_Type'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      88922
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      88944
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''NVIC'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85512
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      88956
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      88976
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '5 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      88976
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      88983
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      88983
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      88989
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      89008
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x1F is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      89008
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''IRQn_Type'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      89303
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      89325
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''NVIC'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85512
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      89337
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      89357
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '5 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      89357
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      89364
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      89364
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      89370
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      89389
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x1F is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      89389
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''IRQn_Type'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      89802
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      89844
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      89880
+          Length:          32
+    Notes:
+      - Message:         'expanded from macro ''NVIC'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85511
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      89844
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''NVIC'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85512
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      89855
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      89875
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '5 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      89875
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      89881
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      89881
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      89887
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      89906
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x1F is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      89906
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''IRQn_Type'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      90183
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      90205
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''NVIC'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85512
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      90217
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      90237
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '5 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      90237
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      90244
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      90244
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      90250
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      90269
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x1F is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      90269
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''IRQn_Type'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      90549
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      90571
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''NVIC'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85512
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      90583
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      90603
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '5 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      90603
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      90610
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      90610
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      90616
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      90635
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x1F is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      90635
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''IRQn_Type'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      91008
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      91049
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      91085
+          Length:          32
+    Notes:
+      - Message:         'expanded from macro ''NVIC'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85511
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      91049
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''NVIC'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85512
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      91060
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      91080
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '5 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      91080
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      91086
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      91086
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      91092
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      91111
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x1F is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      91111
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-easily-swappable-parameters
+    DiagnosticMessage:
+      Message:         '2 adjacent parameters of ''NVIC_SetPriority'' of convertible types are easily swapped by mistake'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      91459
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      91459
+          Length:          33
+    Notes:
+      - Message:         'the first parameter in the range is ''IRQn'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      91469
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      91469
+            Length:          4
+      - Message:         'the last parameter in the range is ''priority'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      91484
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      91484
+            Length:          8
+      - Message:         ''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      91459
+        Replacements:    []
+      - Message:         '''int'' and ''uint32_t'' may be implicitly converted: ''int'' -> ''uint32_t'' (as ''unsigned int''), ''uint32_t'' (as ''unsigned int'') -> ''int'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      91475
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''IRQn_Type'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      91459
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-branch-clone
+    DiagnosticMessage:
+      Message:         if with identical then and else branches
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      91500
+      Replacements:    []
+    Notes:
+      - Message:         else branch starts here
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      91662
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      91578
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      91722
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''IRQn_Type'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      92317
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-branch-clone
+    DiagnosticMessage:
+      Message:         if with identical then and else branches
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      92341
+      Replacements:    []
+    Notes:
+      - Message:         else branch starts here
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      92502
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      92424
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      92577
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-easily-swappable-parameters
+    DiagnosticMessage:
+      Message:         '2 adjacent parameters of ''NVIC_EncodePriority'' of similar type (''uint32_t'') are easily swapped by mistake'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      93361
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      93361
+          Length:          48
+    Notes:
+      - Message:         'the first parameter in the range is ''PriorityGroup'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      93370
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      93370
+            Length:          13
+      - Message:         'the last parameter in the range is ''PreemptPriority'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      93394
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      93394
+            Length:          15
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      93468
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      93484
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x07 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      93484
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-init-variables
+    DiagnosticMessage:
+      Message:         'variable ''PreemptPriorityBits'' is not initialized'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      93553
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          93572
+          Length:          0
+          ReplacementText: ' = 0'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-init-variables
+    DiagnosticMessage:
+      Message:         'variable ''SubPriorityBits'' is not initialized'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      93586
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          93601
+          Length:          0
+          ReplacementText: ' = 0'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      93656
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      93676
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      93763
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      93815
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      93861
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      93879
+          Length:          34
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      93881
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      93881
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      93951
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      93969
+          Length:          34
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      93971
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      93971
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-easily-swappable-parameters
+    DiagnosticMessage:
+      Message:         '2 adjacent parameters of ''NVIC_DecodePriority'' of similar type (''uint32_t'') are easily swapped by mistake'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      94725
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      94725
+          Length:          41
+    Notes:
+      - Message:         'the first parameter in the range is ''Priority'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      94734
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      94734
+            Length:          8
+      - Message:         'the last parameter in the range is ''PriorityGroup'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      94753
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      94753
+            Length:          13
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-easily-swappable-parameters
+    DiagnosticMessage:
+      Message:         '2 adjacent parameters of ''NVIC_DecodePriority'' of similar type (''uint32_t *'') are easily swapped by mistake'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      94768
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      94768
+          Length:          50
+    Notes:
+      - Message:         'the first parameter in the range is ''pPreemptPriority'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      94778
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      94778
+            Length:          16
+      - Message:         'the last parameter in the range is ''pSubPriority'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      94806
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      94806
+            Length:          12
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      94855
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      94871
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x07 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      94871
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-init-variables
+    DiagnosticMessage:
+      Message:         'variable ''PreemptPriorityBits'' is not initialized'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      94940
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          94959
+          Length:          0
+          ReplacementText: ' = 0'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-init-variables
+    DiagnosticMessage:
+      Message:         'variable ''SubPriorityBits'' is not initialized'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      94973
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          94988
+          Length:          0
+          ReplacementText: ' = 0'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      95043
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      95063
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      95150
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      95245
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      95277
+          Length:          34
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      95279
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      95279
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      95336
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      95368
+          Length:          34
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      95370
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      95370
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      95791
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''SCB'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85284
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      95806
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      95806
+          Length:          32
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x5FA is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      95807
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      95807
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      95807
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      95865
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''SCB'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85284
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      95878
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SCB_AIRCR_PRIGROUP_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      23678
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      23685
+            Length:          22
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      95922
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SCB_AIRCR_SYSRESETREQ_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      23935
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      23942
+            Length:          25
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      96112
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      96120
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          96120
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          96195
+          Length:          0
+          ReplacementText: "\n}"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      97275
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SysTick_LOAD_RELOAD_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      37520
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      37534
+            Length:          23
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      97299
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          97299
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          97347
+          Length:          0
+          ReplacementText: "\n}"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      97353
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''SysTick'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85398
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      97548
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''SysTick'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85398
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      97649
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''SysTick'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85398
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      97666
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SysTick_CTRL_CLKSOURCE_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      36704
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      36711
+            Length:          26
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      97715
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SysTick_CTRL_TICKINT_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      36964
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      36971
+            Length:          24
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      97764
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SysTick_CTRL_ENABLE_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      37221
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      37228
+            Length:          23
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''ITM_RxBuffer'' is non-const and globally accessible, consider making it const'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      98318
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  readability-identifier-length
+    DiagnosticMessage:
+      Message:         'parameter name ''ch'' is too short, expected at least 3 characters'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      99003
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      99018
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ITM'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85626
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      99029
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''ITM_TCR_ITMENA_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      44534
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+            FileOffset:      44541
+            Length:          18
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      99100
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ITM'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85626
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      99112
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      99119
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      99192
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      99199
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ITM'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85626
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      99221
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          99221
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          99222
+          Length:          0
+          ReplacementText: "\n}"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      99228
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ITM'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+        FileOffset:      85626
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  readability-identifier-length
+    DiagnosticMessage:
+      Message:         'variable name ''ch'' is too short, expected at least 3 characters'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      99567
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-else-after-return
+    DiagnosticMessage:
+      Message:         'do not use ''else'' after ''return'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+      FileOffset:      100227
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          100227
+          Length:          5
+          ReplacementText: ''
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          Offset:          100232
+          Length:          84
+          ReplacementText: "\n    return (1);                                 /*    character available */\r\n "
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/core_cm3.h'
+          FileOffset:      100227
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

@@ -1,0 +1,48 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\components\uart\uart.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/uart/uart.h'
+      FileOffset:      8
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/uart/uart.h'
+          Offset:          8
+          Length:          6
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_COMPONENTS_UART_UART_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/uart/uart.h'
+          Offset:          24
+          Length:          6
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_COMPONENTS_UART_UART_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  readability-avoid-const-params-in-decls
+    DiagnosticMessage:
+      Message:         'parameter ''character'' is const-qualified in the function declaration; const-qualification of parameters only has an effect in function definitions'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/uart/uart.h'
+      FileOffset:      1728
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/uart/uart.h'
+          Offset:          1728
+          Length:          6
+          ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

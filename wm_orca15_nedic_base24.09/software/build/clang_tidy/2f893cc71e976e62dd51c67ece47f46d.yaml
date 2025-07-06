@@ -1,0 +1,86 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\components\dinput_module\dinput_module.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/dinput_module/dinput_module.h'
+      FileOffset:      8
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/dinput_module/dinput_module.h'
+          Offset:          8
+          Length:          15
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_COMPONENTS_DINPUT_MODULE_DINPUT_MODULE_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/dinput_module/dinput_module.h'
+          Offset:          33
+          Length:          15
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_COMPONENTS_DINPUT_MODULE_DINPUT_MODULE_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-include-order
+    DiagnosticMessage:
+      Message:         '#includes are not sorted properly'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/dinput_module/dinput_module.h'
+      FileOffset:      92
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/dinput_module/dinput_module.h'
+          Offset:          101
+          Length:          14
+          ReplacementText: "\"def.h\"\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/dinput_module/dinput_module.h'
+          Offset:          125
+          Length:          8
+          ReplacementText: "\"gpio/gpio.h\"\r"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to padding; only needs 34 bytes but is using 40 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/dinput_module/dinput_module.h'
+      FileOffset:      226
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/dinput_module/dinput_module.h'
+          Offset:          742
+          Length:          0
+          ReplacementText: ' __attribute__((packed))'
+    Notes:
+      - Message:         'use "__attribute__((packed))" to reduce the amount of padding applied to struct '''''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/dinput_module/dinput_module.h'
+        FileOffset:      226
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 64 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/dinput_module/dinput_module.h'
+      FileOffset:      226
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/dinput_module/dinput_module.h'
+          Offset:          742
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(64)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(64)))" to align struct '''' to 64 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/dinput_module/dinput_module.h'
+        FileOffset:      226
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

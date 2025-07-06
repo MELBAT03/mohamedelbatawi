@@ -1,0 +1,69 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\components\hm14n\hm_14n.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/hm14n/hm_14n.h'
+      FileOffset:      8
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/hm14n/hm_14n.h'
+          Offset:          8
+          Length:          8
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_COMPONENTS_HM14N_HM_14N_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/hm14n/hm_14n.h'
+          Offset:          26
+          Length:          8
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_COMPONENTS_HM14N_HM_14N_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 16 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/hm14n/hm_14n.h'
+      FileOffset:      403
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/hm14n/hm_14n.h'
+          Offset:          443
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct '''' to 16 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/hm14n/hm_14n.h'
+        FileOffset:      403
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  readability-identifier-length
+    DiagnosticMessage:
+      Message:         'parameter name ''hm'' is too short, expected at least 3 characters'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/hm14n/hm_14n.h'
+      FileOffset:      495
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  readability-identifier-length
+    DiagnosticMessage:
+      Message:         'parameter name ''id'' is too short, expected at least 3 characters'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/components/hm14n/hm_14n.h'
+      FileOffset:      700
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

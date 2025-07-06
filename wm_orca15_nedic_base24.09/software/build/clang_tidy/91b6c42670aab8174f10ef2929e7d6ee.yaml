@@ -1,0 +1,1284 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\cmsis\arm-none-eabi\include\c++\9.2.1\ext\pb_ds\detail\gp_hash_table_map_\gp_ht_map_.hpp'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header is missing header guard
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      0
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          0
+          Length:          0
+          ReplacementText: "#ifndef C++_9_2_1_EXT_PB_DS_DETAIL_GP_HASH_TABLE_MAP__GP_HT_MAP__HPP\n#define C++_9_2_1_EXT_PB_DS_DETAIL_GP_HASH_TABLE_MAP__GP_HT_MAP__HPP\n\n"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          21130
+          Length:          0
+          ReplacementText: "\n#endif\n"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-include-order
+    DiagnosticMessage:
+      Message:         '#includes are not sorted properly'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      1766
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          1775
+          Length:          30
+          ReplacementText: "<ext/pb_ds/detail/eq_fn/hash_eq_fn.hpp>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          1954
+          Length:          40
+          ReplacementText: "<ext/pb_ds/tag_and_trait.hpp>\r"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         '''ext/pb_ds/tag_and_trait.hpp'' file not found'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      1775
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          FileOffset:      1775
+          Length:          29
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gnu_pbds'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      2189
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          2189
+          Length:          10
+          ReplacementText: gnu_pbds
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvmlibc-implementation-in-namespace
+    DiagnosticMessage:
+      Message:         '''__llvm_libc'' needs to be the outermost namespace'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      2189
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-special-member-functions
+    DiagnosticMessage:
+      Message:         'class ''PB_DS_GP_HASH_NAME'' defines a non-default destructor and a copy constructor but does not define a copy assignment operator, a move constructor or a move assignment operator'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      5144
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      5419
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          5419
+          Length:          53
+          ReplacementText: 'using traits_base = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      5481
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          5481
+          Length:          53
+          ReplacementText: 'using value_type_ = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      5543
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          5543
+          Length:          47
+          ReplacementText: 'using pointer_ = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      5599
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          5599
+          Length:          58
+          ReplacementText: 'using const_pointer_ = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      5666
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          5666
+          Length:          51
+          ReplacementText: 'using reference_ = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      5726
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          5726
+          Length:          62
+          ReplacementText: 'using const_reference_ = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      5797
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          5797
+          Length:          49
+          ReplacementText: 'using comp_hash = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      6097
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          6097
+          Length:          70
+          ReplacementText: 'using entry_allocator = typename _Alloc::template rebind<entry>::other'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      6176
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          6176
+          Length:          55
+          ReplacementText: 'using entry_pointer = typename entry_allocator::pointer'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      6240
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          6240
+          Length:          67
+          ReplacementText: 'using const_entry_pointer = typename entry_allocator::const_pointer'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      6316
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          6316
+          Length:          59
+          ReplacementText: 'using entry_reference = typename entry_allocator::reference'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      6384
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          6384
+          Length:          71
+          ReplacementText: 'using const_entry_reference = typename entry_allocator::const_reference'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      6464
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          6464
+          Length:          53
+          ReplacementText: 'using entry_array = typename entry_allocator::pointer'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      6528
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          6528
+          Length:          57
+          ReplacementText: 'using ranged_probe_fn_base = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      6684
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          6684
+          Length:          48
+          ReplacementText: 'using hash_eq_fn_base = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      6741
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          6741
+          Length:          36
+          ReplacementText: 'using resize_base = Resize_Policy'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-include-order
+    DiagnosticMessage:
+      Message:         '#includes are not sorted properly'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      6834
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          6843
+          Length:          63
+          ReplacementText: "<ext/pb_ds/detail/unordered_iterator/const_iterator.hpp>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          6916
+          Length:          57
+          ReplacementText: "<ext/pb_ds/detail/unordered_iterator/iterator.hpp>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          6983
+          Length:          57
+          ReplacementText: "<ext/pb_ds/detail/unordered_iterator/point_const_iterator.hpp>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          7050
+          Length:          51
+          ReplacementText: "<ext/pb_ds/detail/unordered_iterator/point_iterator.hpp>\r"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      7147
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          7147
+          Length:          33
+          ReplacementText: 'using allocator_type = _Alloc'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      7189
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          7189
+          Length:          45
+          ReplacementText: 'using size_type = typename _Alloc::size_type'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      7243
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          7243
+          Length:          57
+          ReplacementText: 'using difference_type = typename _Alloc::difference_type'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      7309
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          7309
+          Length:          27
+          ReplacementText: 'using hash_fn = Hash_Fn'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      7345
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          7345
+          Length:          23
+          ReplacementText: 'using eq_fn = Eq_Fn'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      7377
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          7377
+          Length:          29
+          ReplacementText: 'using probe_fn = Probe_Fn'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      7415
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          7415
+          Length:          38
+          ReplacementText: 'using comb_probe_fn = Comb_Probe_Fn'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      7462
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          7462
+          Length:          38
+          ReplacementText: 'using resize_policy = Resize_Policy'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      7607
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          7607
+          Length:          48
+          ReplacementText: 'using key_type = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      7664
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          7664
+          Length:          53
+          ReplacementText: 'using key_pointer = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      7726
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          7726
+          Length:          65
+          ReplacementText: 'using key_const_pointer = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      7800
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          7800
+          Length:          57
+          ReplacementText: 'using key_reference = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      7866
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          7866
+          Length:          69
+          ReplacementText: 'using key_const_reference = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      7944
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          7944
+          Length:          53
+          ReplacementText: 'using mapped_type = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      8006
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          8006
+          Length:          59
+          ReplacementText: 'using mapped_pointer = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      8074
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          8074
+          Length:          71
+          ReplacementText: 'using mapped_const_pointer = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      8154
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          8154
+          Length:          63
+          ReplacementText: 'using mapped_reference = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      8226
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          8226
+          Length:          75
+          ReplacementText: 'using mapped_const_reference = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      8310
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          8310
+          Length:          51
+          ReplacementText: 'using value_type = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      8370
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          8370
+          Length:          45
+          ReplacementText: 'using pointer = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      8424
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          8424
+          Length:          57
+          ReplacementText: 'using const_pointer = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      8490
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          8490
+          Length:          49
+          ReplacementText: 'using reference = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      8548
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          8548
+          Length:          61
+          ReplacementText: 'using const_reference = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      8814
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          8814
+          Length:          52
+          ReplacementText: 'using point_const_iterator = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-using
+    DiagnosticMessage:
+      Message:         'use ''using'' instead of ''typedef'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      9048
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          9048
+          Length:          41
+          ReplacementText: 'using const_iterator = int'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-explicit-constructor
+    DiagnosticMessage:
+      Message:         single-argument constructors must be marked explicit to avoid unintentional implicit conversions
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      9186
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          9186
+          Length:          0
+          ReplacementText: 'explicit '
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      9792
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          9775
+          Length:          9
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          9804
+          Length:          0
+          ReplacementText: ' -> size_type'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      9839
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          9822
+          Length:          9
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          9855
+          Length:          0
+          ReplacementText: ' -> size_type'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      9936
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      10011
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          9995
+          Length:          8
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10024
+          Length:          0
+          ReplacementText: ' -> Hash_Fn&'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      10098
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10076
+          Length:          14
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10117
+          Length:          0
+          ReplacementText: ' -> const Hash_Fn&'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      10175
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10161
+          Length:          6
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10186
+          Length:          0
+          ReplacementText: ' -> Eq_Fn&'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      10256
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10236
+          Length:          12
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10273
+          Length:          0
+          ReplacementText: ' -> const Eq_Fn&'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      10337
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10320
+          Length:          9
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10351
+          Length:          0
+          ReplacementText: ' -> Probe_Fn&'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      10427
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10404
+          Length:          15
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10447
+          Length:          0
+          ReplacementText: ' -> const Probe_Fn&'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      10521
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10499
+          Length:          14
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10540
+          Length:          0
+          ReplacementText: ' -> Comb_Probe_Fn&'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      10626
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10598
+          Length:          20
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10651
+          Length:          0
+          ReplacementText: ' -> const Comb_Probe_Fn&'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      10725
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10703
+          Length:          14
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10744
+          Length:          0
+          ReplacementText: ' -> Resize_Policy&'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      10830
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10802
+          Length:          20
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          10855
+          Length:          0
+          ReplacementText: ' -> const Resize_Policy&'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      10912
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  fuchsia-overloaded-operator
+    DiagnosticMessage:
+      Message:         'overloading ''operator[]'' is disallowed'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      11117
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      11148
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          11124
+          Length:          16
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          11185
+          Length:          0
+          ReplacementText: ' -> mapped_reference'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      11412
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      11483
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          11455
+          Length:          20
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          11514
+          Length:          0
+          ReplacementText: ' -> point_const_iterator'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      11554
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      11610
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          11582
+          Length:          20
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          11626
+          Length:          0
+          ReplacementText: ' -> point_const_iterator'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      11656
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          11644
+          Length:          4
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          11682
+          Length:          0
+          ReplacementText: ' -> bool'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      11752
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          11733
+          Length:          9
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          11766
+          Length:          0
+          ReplacementText: ' -> size_type'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      11830
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      11877
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          11855
+          Length:          14
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          11890
+          Length:          0
+          ReplacementText: ' -> const_iterator'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      11924
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      11975
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          11953
+          Length:          14
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          11986
+          Length:          0
+          ReplacementText: ' -> const_iterator'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      12450
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          12438
+          Length:          4
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          12471
+          Length:          0
+          ReplacementText: ' -> bool'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      12895
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          12878
+          Length:          9
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          12940
+          Length:          0
+          ReplacementText: ' -> size_type'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      12975
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          12958
+          Length:          9
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          13019
+          Length:          0
+          ReplacementText: ' -> comp_hash'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      13076
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      13172
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      13243
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          13228
+          Length:          7
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          13295
+          Length:          0
+          ReplacementText: ' -> pointer'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      13925
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          13910
+          Length:          7
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          13990
+          Length:          0
+          ReplacementText: ' -> pointer'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      15770
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          15755
+          Length:          7
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          15823
+          Length:          0
+          ReplacementText: ' -> pointer'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-named-parameter
+    DiagnosticMessage:
+      Message:         all parameters should be named in a function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      15822
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          15822
+          Length:          0
+          ReplacementText: ' /*unused*/'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      16015
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      16918
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          16903
+          Length:          7
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          16970
+          Length:          0
+          ReplacementText: ' -> pointer'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-named-parameter
+    DiagnosticMessage:
+      Message:         all parameters should be named in a function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      16969
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          16969
+          Length:          0
+          ReplacementText: ' /*unused*/'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-init-variables
+    DiagnosticMessage:
+      Message:         'variable ''pos_hash_pair'' is not initialized'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      16992
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          17005
+          Length:          0
+          ReplacementText: ' = 0'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      17165
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      18127
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          18115
+          Length:          4
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          18168
+          Length:          0
+          ReplacementText: ' -> bool'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      18198
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          18186
+          Length:          4
+          ReplacementText: auto
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          18240
+          Length:          0
+          ReplacementText: ' -> bool'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      18621
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      18957
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      19283
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''s_entry_allocator'' is non-const and globally accessible, consider making it const'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      19803
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''s_end_it'' is non-const and globally accessible, consider making it const'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      19847
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''s_const_end_it'' is non-const and globally accessible, consider making it const'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      19887
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-use-trailing-return-type
+    DiagnosticMessage:
+      Message:         use a trailing return type for this function
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      20121
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-include-order
+    DiagnosticMessage:
+      Message:         '#includes are not sorted properly'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+      FileOffset:      20256
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          20265
+          Length:          55
+          ReplacementText: "<ext/pb_ds/detail/gp_hash_table_map_/debug_fn_imps.hpp>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          20330
+          Length:          57
+          ReplacementText: "<ext/pb_ds/detail/gp_hash_table_map_/erase_fn_imps.hpp>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          20397
+          Length:          56
+          ReplacementText: "<ext/pb_ds/detail/gp_hash_table_map_/find_fn_imps.hpp>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          20528
+          Length:          64
+          ReplacementText: "<ext/pb_ds/detail/gp_hash_table_map_/insert_fn_imps.hpp>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          20602
+          Length:          56
+          ReplacementText: "<ext/pb_ds/detail/gp_hash_table_map_/iterator_fn_imps.hpp>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          20668
+          Length:          59
+          ReplacementText: "<ext/pb_ds/detail/gp_hash_table_map_/policy_access_fn_imps.hpp>\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/ext/pb_ds/detail/gp_hash_table_map_/gp_ht_map_.hpp'
+          Offset:          20737
+          Length:          57
+          ReplacementText: "<ext/pb_ds/detail/gp_hash_table_map_/resize_fn_imps.hpp>\r"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

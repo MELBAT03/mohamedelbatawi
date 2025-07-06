@@ -1,0 +1,501 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\holtek_12366\include\ht32f1xxxx_mctm.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         too many errors emitted, stopping now
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         '"Please add "USE_HT32Fxxxxx_xx" define into C Preprocessor Symbols of the Project configuration."'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_01.h'
+      FileOffset:      1817
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+      FileOffset:      1822
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+          Offset:          1822
+          Length:          19
+          ReplacementText: HT32F1XXXX_MCTM_H
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+          Offset:          1851
+          Length:          19
+          ReplacementText: HT32F1XXXX_MCTM_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__HT32F1XXXX_MCTM_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+      FileOffset:      1851
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to padding; only needs 34 bytes but is using 36 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+      FileOffset:      2536
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+          Offset:          2737
+          Length:          0
+          ReplacementText: ' __attribute__((packed))'
+    Notes:
+      - Message:         'use "__attribute__((packed))" to reduce the amount of padding applied to struct '''''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+        FileOffset:      2536
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 64 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+      FileOffset:      2536
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+          Offset:          2737
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(64)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(64)))" to align struct '''' to 64 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+        FileOffset:      2536
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+      FileOffset:      5453
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+          Offset:          5453
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+          Offset:          5454
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+      FileOffset:      5472
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+          Offset:          5472
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+          Offset:          5473
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+      FileOffset:      5794
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+          Offset:          5794
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+          Offset:          5795
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+      FileOffset:      5822
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+          Offset:          5822
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+          Offset:          5823
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+      FileOffset:      5952
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+          Offset:          5952
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+          Offset:          5953
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro argument should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+      FileOffset:      5975
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+          Offset:          5975
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_mctm.h'
+          Offset:          5976
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''TM_CH_Enum''; did you mean ''TM_OM_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      10970
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          10970
+          Length:          10
+          ReplacementText: TM_OM_Enum
+    Notes:
+      - Message:         '''TM_OM_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      4524
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''TM_CHCTL_Enum''; did you mean ''TM_CHCCS_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      11194
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          11194
+          Length:          13
+          ReplacementText: TM_CHCCS_Enum
+    Notes:
+      - Message:         '''TM_CHCCS_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      4965
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''TM_CHCTL_Enum''; did you mean ''TM_CHCCS_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      11306
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          11306
+          Length:          13
+          ReplacementText: TM_CHCCS_Enum
+    Notes:
+      - Message:         '''TM_CHCCS_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      4965
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''TM_CHP_Enum''; did you mean ''TM_CHPSC_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      11418
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          11418
+          Length:          11
+          ReplacementText: TM_CHPSC_Enum
+    Notes:
+      - Message:         '''TM_CHPSC_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      5514
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''TM_CHP_Enum''; did you mean ''TM_CHPSC_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      11530
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          11530
+          Length:          11
+          ReplacementText: TM_CHPSC_Enum
+    Notes:
+      - Message:         '''TM_CHPSC_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      5514
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''MCTM_OIS_Enum''; did you mean ''TM_OM_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      11642
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          11642
+          Length:          13
+          ReplacementText: TM_OM_Enum
+    Notes:
+      - Message:         '''TM_OM_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      4524
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''MCTM_OIS_Enum''; did you mean ''TM_OM_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      11754
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          11754
+          Length:          13
+          ReplacementText: TM_OM_Enum
+    Notes:
+      - Message:         '''TM_OM_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      4524
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''TM_CH_Enum''; did you mean ''TM_OM_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      12202
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          12202
+          Length:          10
+          ReplacementText: TM_OM_Enum
+    Notes:
+      - Message:         '''TM_OM_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      4524
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''TM_CHP_Enum''; did you mean ''TM_CHPSC_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      12314
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          12314
+          Length:          11
+          ReplacementText: TM_CHPSC_Enum
+    Notes:
+      - Message:         '''TM_CHPSC_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      5514
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''TM_CHP_Enum''; did you mean ''TM_CHPSC_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      27553
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          27553
+          Length:          11
+          ReplacementText: TM_CHPSC_Enum
+    Notes:
+      - Message:         '''TM_CHPSC_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      5514
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''TM_CHP_Enum''; did you mean ''TM_CHPSC_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      28086
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          28086
+          Length:          11
+          ReplacementText: TM_CHPSC_Enum
+    Notes:
+      - Message:         '''TM_CHPSC_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      5514
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''TM_CHP_Enum''; did you mean ''TM_CHPSC_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      28104
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          28104
+          Length:          11
+          ReplacementText: TM_CHPSC_Enum
+    Notes:
+      - Message:         '''TM_CHPSC_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      5514
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''TM_CH_Enum''; did you mean ''TM_OM_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      28165
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          28165
+          Length:          10
+          ReplacementText: TM_OM_Enum
+    Notes:
+      - Message:         '''TM_OM_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      4524
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''TM_CH_Enum''; did you mean ''TM_OM_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      28327
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          28327
+          Length:          10
+          ReplacementText: TM_OM_Enum
+    Notes:
+      - Message:         '''TM_OM_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      4524
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''TM_CH_Enum''; did you mean ''TM_OM_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      28417
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          28417
+          Length:          10
+          ReplacementText: TM_OM_Enum
+    Notes:
+      - Message:         '''TM_OM_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      4524
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''TM_CH_Enum''; did you mean ''TM_OM_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      28508
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          28508
+          Length:          10
+          ReplacementText: TM_OM_Enum
+    Notes:
+      - Message:         '''TM_OM_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      4524
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''TM_CHP_Enum''; did you mean ''TM_CHPSC_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      28528
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          28528
+          Length:          11
+          ReplacementText: TM_CHPSC_Enum
+    Notes:
+      - Message:         '''TM_CHPSC_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      5514
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''TM_CH_Enum''; did you mean ''TM_OM_Enum''?'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+      FileOffset:      28593
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+          Offset:          28593
+          Length:          10
+          ReplacementText: TM_OM_Enum
+    Notes:
+      - Message:         '''TM_OM_Enum'' declared here'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/holtek_12366/include/ht32f1xxxx_tm.h'
+        FileOffset:      4524
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

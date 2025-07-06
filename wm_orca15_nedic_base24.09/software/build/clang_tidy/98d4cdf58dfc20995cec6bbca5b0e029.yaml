@@ -1,0 +1,159 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\c17m24\inc\reg\rfc_reg.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+      FileOffset:      550
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+          Offset:          550
+          Length:          11
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_CORE_C17M24_INC_REG_RFC_REG_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+          Offset:          571
+          Length:          11
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_CORE_C17M24_INC_REG_RFC_REG_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+          Offset:          14818
+          Length:          20
+          ReplacementText: 'endif // D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_CORE_C17M24_INC_REG_RFC_REG_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''RFCNCLK_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 16 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+      FileOffset:      737
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+          Offset:          4158
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct ''RFCNCLK_REG_BIT_TAG'' to 16 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+        FileOffset:      737
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''RFCNCTL_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 16 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+      FileOffset:      4318
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+          Offset:          6911
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct ''RFCNCTL_REG_BIT_TAG'' to 16 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+        FileOffset:      4318
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''RFCNTRG_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 8 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+      FileOffset:      7083
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+          Offset:          8582
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(8)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(8)))" to align struct ''RFCNTRG_REG_BIT_TAG'' to 8 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+        FileOffset:      7083
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''RFCNMCH_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 4 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+      FileOffset:      9091
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+          Offset:          9311
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(4)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(4)))" to align struct ''RFCNMCH_REG_BIT_TAG'' to 4 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+        FileOffset:      9091
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''RFCNTCH_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 4 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+      FileOffset:      9944
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+          Offset:          10162
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(4)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(4)))" to align struct ''RFCNTCH_REG_BIT_TAG'' to 4 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+        FileOffset:      9944
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''RFCNINTF_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 16 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+      FileOffset:      10458
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+          Offset:          12848
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct ''RFCNINTF_REG_BIT_TAG'' to 16 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+        FileOffset:      10458
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''RFCNINTE_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 16 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+      FileOffset:      13019
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+          Offset:          14724
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct ''RFCNINTE_REG_BIT_TAG'' to 16 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/rfc_reg.h'
+        FileOffset:      13019
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

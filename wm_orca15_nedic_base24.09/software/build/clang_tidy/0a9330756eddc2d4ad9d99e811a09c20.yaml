@@ -1,0 +1,1925 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\cmsis\arm-none-eabi\include\c++\9.2.1\arm-none-eabi\arm\v5te\hard\bits\c++config.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      1287
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          1287
+          Length:          21
+          ReplacementText: 'C++_9_2_1_ARM_NONE_EABI_ARM_V5TE_HARD_BITS_C++CONFIG_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          1318
+          Length:          21
+          ReplacementText: 'C++_9_2_1_ARM_NONE_EABI_ARM_V5TE_HARD_BITS_C++CONFIG_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          63521
+          Length:          30
+          ReplacementText: 'endif // C++_9_2_1_ARM_NONE_EABI_ARM_V5TE_HARD_BITS_C++CONFIG_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_CXX_CONFIG_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      1318
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_RELEASE'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      1430
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          1430
+          Length:          16
+          ReplacementText: GLIBCXX_RELEASE
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__GLIBCXX__'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      1528
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          1528
+          Length:          11
+          ReplacementText: GLIBCXX_
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_PURE'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      1733
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          1733
+          Length:          13
+          ReplacementText: GLIBCXX_PURE
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_CONST'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      1818
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          1818
+          Length:          14
+          ReplacementText: GLIBCXX_CONST
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_NORETURN'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      1908
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          1908
+          Length:          17
+          ReplacementText: GLIBCXX_NORETURN
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_NOTHROW'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      2048
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          2048
+          Length:          16
+          ReplacementText: GLIBCXX_NOTHROW
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ATTRIBUTE_VISIBILITY'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      2228
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          2228
+          Length:          34
+          ReplacementText: GLIBCXX_HAVE_ATTRIBUTE_VISIBILITY
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          2272
+          Length:          34
+          ReplacementText: GLIBCXX_HAVE_ATTRIBUTE_VISIBILITY
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_VISIBILITY'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      2317
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          2317
+          Length:          19
+          ReplacementText: GLIBCXX_VISIBILITY
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_DEPRECATED'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      2754
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          2754
+          Length:          23
+          ReplacementText: GLIBCXX_USE_DEPRECATED
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_DEPRECATED'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      2925
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          2925
+          Length:          19
+          ReplacementText: GLIBCXX_DEPRECATED
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX17_DEPRECATED'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      3078
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          3078
+          Length:          21
+          ReplacementText: GLIBCXX17_DEPRECATED
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_ABI_TAG_CXX11'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      3187
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          3187
+          Length:          22
+          ReplacementText: GLIBCXX_ABI_TAG_CXX11
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_NODISCARD'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      3390
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          3390
+          Length:          18
+          ReplacementText: GLIBCXX_NODISCARD
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_BEGIN_EXTERN_C'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      15349
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          15349
+          Length:          23
+          ReplacementText: GLIBCXX_BEGIN_EXTERN_C
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_END_EXTERN_C'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      15383
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          15383
+          Length:          21
+          ReplacementText: GLIBCXX_END_EXTERN_C
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         '''bits/os_defines.h'' file not found'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      15490
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          FileOffset:      15490
+          Length:          19
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_PSEUDO_VISIBILITY'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      15755
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          15755
+          Length:          26
+          ReplacementText: GLIBCXX_PSEUDO_VISIBILITY
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_WEAK_DEFINITION'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      16026
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          16026
+          Length:          24
+          ReplacementText: GLIBCXX_WEAK_DEFINITION
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_WEAK_REF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      16408
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          16408
+          Length:          21
+          ReplacementText: GLIBCXX_USE_WEAK_REF
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          16797
+          Length:          21
+          ReplacementText: GLIBCXX_USE_WEAK_REF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_TXN_SAFE'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      16971
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          16971
+          Length:          17
+          ReplacementText: GLIBCXX_TXN_SAFE
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_TXN_SAFE_DYN'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      16998
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          16998
+          Length:          21
+          ReplacementText: GLIBCXX_TXN_SAFE_DYN
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_FAST_MATH'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      17592
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          17592
+          Length:          18
+          ReplacementText: GLIBCXX_FAST_MATH
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__N'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      17920
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          17920
+          Length:          3
+          ReplacementText: N
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_C99_MATH'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      18756
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          18756
+          Length:          21
+          ReplacementText: GLIBCXX_USE_C99_MATH
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_C99_COMPLEX'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      18856
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          18856
+          Length:          24
+          ReplacementText: GLIBCXX_USE_C99_COMPLEX
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_C99_STDIO'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      18960
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          18960
+          Length:          22
+          ReplacementText: GLIBCXX_USE_C99_STDIO
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_C99_STDLIB'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      19061
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          19061
+          Length:          23
+          ReplacementText: GLIBCXX_USE_C99_STDLIB
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_C99_WCHAR'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      19163
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          19163
+          Length:          22
+          ReplacementText: GLIBCXX_USE_C99_WCHAR
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_BUILTIN_LAUNDER'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      20359
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          20359
+          Length:          29
+          ReplacementText: GLIBCXX_HAVE_BUILTIN_LAUNDER
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ACOSF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      21644
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          21644
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_ACOSF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ASINF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      22028
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          22028
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_ASINF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_AS_SYMVER_DIRECTIVE'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      22221
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          22221
+          Length:          33
+          ReplacementText: GLIBCXX_HAVE_AS_SYMVER_DIRECTIVE
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ATAN2F'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      22322
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          22322
+          Length:          20
+          ReplacementText: GLIBCXX_HAVE_ATAN2F
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ATANF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      22500
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          22500
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_ATANF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_CEILF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      23018
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          23018
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_CEILF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_COMPLEX_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      23200
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          23200
+          Length:          23
+          ReplacementText: GLIBCXX_HAVE_COMPLEX_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_COSF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      23289
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          23289
+          Length:          18
+          ReplacementText: GLIBCXX_HAVE_COSF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_COSHF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      23374
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          23374
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_COSHF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_EBADMSG'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      23810
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          23810
+          Length:          21
+          ReplacementText: GLIBCXX_HAVE_EBADMSG
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ECANCELED'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      23880
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          23880
+          Length:          23
+          ReplacementText: GLIBCXX_HAVE_ECANCELED
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ECHILD'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      23949
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          23949
+          Length:          20
+          ReplacementText: GLIBCXX_HAVE_ECHILD
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_EIDRM'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      24014
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          24014
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_EIDRM
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ENODATA'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      24178
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          24178
+          Length:          21
+          ReplacementText: GLIBCXX_HAVE_ENODATA
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ENOLINK'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      24246
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          24246
+          Length:          21
+          ReplacementText: GLIBCXX_HAVE_ENOLINK
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ENOSPC'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      24313
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          24313
+          Length:          20
+          ReplacementText: GLIBCXX_HAVE_ENOSPC
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ENOSR'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      24378
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          24378
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_ENOSR
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ENOSTR'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      24443
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          24443
+          Length:          20
+          ReplacementText: GLIBCXX_HAVE_ENOSTR
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ENOTRECOVERABLE'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      24518
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          24518
+          Length:          29
+          ReplacementText: GLIBCXX_HAVE_ENOTRECOVERABLE
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ENOTSUP'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      24594
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          24594
+          Length:          21
+          ReplacementText: GLIBCXX_HAVE_ENOTSUP
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_EOVERFLOW'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      24664
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          24664
+          Length:          23
+          ReplacementText: GLIBCXX_HAVE_EOVERFLOW
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_EOWNERDEAD'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      24737
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          24737
+          Length:          24
+          ReplacementText: GLIBCXX_HAVE_EOWNERDEAD
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_EPERM'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      24806
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          24806
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_EPERM
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_EPROTO'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      24871
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          24871
+          Length:          20
+          ReplacementText: GLIBCXX_HAVE_EPROTO
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ETIME'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      24936
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          24936
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_ETIME
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ETIMEDOUT'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      25004
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          25004
+          Length:          23
+          ReplacementText: GLIBCXX_HAVE_ETIMEDOUT
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ETXTBSY'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      25074
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          25074
+          Length:          21
+          ReplacementText: GLIBCXX_HAVE_ETXTBSY
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_EWOULDBLOCK'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      25146
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          25146
+          Length:          25
+          ReplacementText: GLIBCXX_HAVE_EWOULDBLOCK
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_EXPF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      25469
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          25469
+          Length:          18
+          ReplacementText: GLIBCXX_HAVE_EXPF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_FABSF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      25641
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          25641
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_FABSF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_FCNTL_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      25821
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          25821
+          Length:          21
+          ReplacementText: GLIBCXX_HAVE_FCNTL_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_FLOAT_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      26285
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          26285
+          Length:          21
+          ReplacementText: GLIBCXX_HAVE_FLOAT_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_FLOORF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      26374
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          26374
+          Length:          20
+          ReplacementText: GLIBCXX_HAVE_FLOORF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_FMODF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      26552
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          26552
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_FMODF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_FREXPF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      26911
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          26911
+          Length:          20
+          ReplacementText: GLIBCXX_HAVE_FREXPF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_GETIPINFO'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      27085
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          27085
+          Length:          23
+          ReplacementText: GLIBCXX_HAVE_GETIPINFO
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_GETS'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      27184
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          27184
+          Length:          18
+          ReplacementText: GLIBCXX_HAVE_GETS
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_HYPOT'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      27269
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          27269
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_HYPOT
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ICONV'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      27532
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          27532
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_ICONV
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_IEEEFP_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      27624
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          27624
+          Length:          22
+          ReplacementText: GLIBCXX_HAVE_IEEEFP_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_INT64_T'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      27713
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          27713
+          Length:          21
+          ReplacementText: GLIBCXX_HAVE_INT64_T
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_INT64_T_LONG_LONG'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      27868
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          27868
+          Length:          31
+          ReplacementText: GLIBCXX_HAVE_INT64_T_LONG_LONG
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_INTTYPES_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      27974
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          27974
+          Length:          24
+          ReplacementText: GLIBCXX_HAVE_INTTYPES_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_ISWBLANK'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      28589
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          28589
+          Length:          22
+          ReplacementText: GLIBCXX_HAVE_ISWBLANK
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_LC_MESSAGES'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      28682
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          28682
+          Length:          25
+          ReplacementText: GLIBCXX_HAVE_LC_MESSAGES
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_LDEXPF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      28775
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          28775
+          Length:          20
+          ReplacementText: GLIBCXX_HAVE_LDEXPF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_LIMIT_AS'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      29055
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          29055
+          Length:          22
+          ReplacementText: GLIBCXX_HAVE_LIMIT_AS
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_LIMIT_DATA'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      29146
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          29146
+          Length:          24
+          ReplacementText: GLIBCXX_HAVE_LIMIT_DATA
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_LIMIT_FSIZE'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      29239
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          29239
+          Length:          25
+          ReplacementText: GLIBCXX_HAVE_LIMIT_FSIZE
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_LIMIT_RSS'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      29333
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          29333
+          Length:          23
+          ReplacementText: GLIBCXX_HAVE_LIMIT_RSS
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_LIMIT_VMEM'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      29425
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          29425
+          Length:          24
+          ReplacementText: GLIBCXX_HAVE_LIMIT_VMEM
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_LOCALE_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      29912
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          29912
+          Length:          22
+          ReplacementText: GLIBCXX_HAVE_LOCALE_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_LOG10F'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      30002
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          30002
+          Length:          20
+          ReplacementText: GLIBCXX_HAVE_LOG10F
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_LOGF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      30179
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          30179
+          Length:          18
+          ReplacementText: GLIBCXX_HAVE_LOGF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_MACHINE_ENDIAN_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      30365
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          30365
+          Length:          30
+          ReplacementText: GLIBCXX_HAVE_MACHINE_ENDIAN_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_MACHINE_PARAM_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      30475
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          30475
+          Length:          29
+          ReplacementText: GLIBCXX_HAVE_MACHINE_PARAM_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_MBSTATE_T'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      30564
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          30564
+          Length:          23
+          ReplacementText: GLIBCXX_HAVE_MBSTATE_T
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_MEMALIGN'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      30657
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          30657
+          Length:          22
+          ReplacementText: GLIBCXX_HAVE_MEMALIGN
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_MEMORY_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      30752
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          30752
+          Length:          22
+          ReplacementText: GLIBCXX_HAVE_MEMORY_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_MODFF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      30928
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          30928
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_MODFF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_POWF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      31996
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          31996
+          Length:          18
+          ReplacementText: GLIBCXX_HAVE_POWF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_SINF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      32822
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          32822
+          Length:          18
+          ReplacementText: GLIBCXX_HAVE_SINF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_SINHF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      32907
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          32907
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_SINHF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_SLEEP'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      33148
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          33148
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_SLEEP
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_SQRTF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      33333
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          33333
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_SQRTF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_STDALIGN_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      33516
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          33516
+          Length:          24
+          ReplacementText: GLIBCXX_HAVE_STDALIGN_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_STDBOOL_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      33614
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          33614
+          Length:          23
+          ReplacementText: GLIBCXX_HAVE_STDBOOL_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_STDINT_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      33710
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          33710
+          Length:          22
+          ReplacementText: GLIBCXX_HAVE_STDINT_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_STDLIB_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      33805
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          33805
+          Length:          22
+          ReplacementText: GLIBCXX_HAVE_STDLIB_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_STRERROR_R'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      33994
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          33994
+          Length:          24
+          ReplacementText: GLIBCXX_HAVE_STRERROR_R
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_STRINGS_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      34092
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          34092
+          Length:          23
+          ReplacementText: GLIBCXX_HAVE_STRINGS_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_STRING_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      34188
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          34188
+          Length:          22
+          ReplacementText: GLIBCXX_HAVE_STRING_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_STRTOF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      34278
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          34278
+          Length:          20
+          ReplacementText: GLIBCXX_HAVE_STRTOF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_SYS_PARAM_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      35470
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          35470
+          Length:          25
+          ReplacementText: GLIBCXX_HAVE_SYS_PARAM_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_SYS_RESOURCE_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      35574
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          35574
+          Length:          28
+          ReplacementText: GLIBCXX_HAVE_SYS_RESOURCE_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_SYS_STAT_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      36097
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          36097
+          Length:          24
+          ReplacementText: GLIBCXX_HAVE_SYS_STAT_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_SYS_TIME_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      36304
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          36304
+          Length:          24
+          ReplacementText: GLIBCXX_HAVE_SYS_TIME_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_SYS_TYPES_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      36404
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          36404
+          Length:          25
+          ReplacementText: GLIBCXX_HAVE_SYS_TYPES_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_S_ISREG'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      36691
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          36691
+          Length:          21
+          ReplacementText: GLIBCXX_HAVE_S_ISREG
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_TANF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      36778
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          36778
+          Length:          18
+          ReplacementText: GLIBCXX_HAVE_TANF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_TANHF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      36863
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          36863
+          Length:          19
+          ReplacementText: GLIBCXX_HAVE_TANHF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_TGMATH_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      37131
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          37131
+          Length:          22
+          ReplacementText: GLIBCXX_HAVE_TGMATH_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_UNISTD_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      37616
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          37616
+          Length:          22
+          ReplacementText: GLIBCXX_HAVE_UNISTD_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_USLEEP'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      37685
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          37685
+          Length:          20
+          ReplacementText: GLIBCXX_HAVE_USLEEP
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_UTIME_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      37777
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          37777
+          Length:          21
+          ReplacementText: GLIBCXX_HAVE_UTIME_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_VFWSCANF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      37847
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          37847
+          Length:          22
+          ReplacementText: GLIBCXX_HAVE_VFWSCANF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_VSWSCANF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      37918
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          37918
+          Length:          22
+          ReplacementText: GLIBCXX_HAVE_VSWSCANF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_VWSCANF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      37988
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          37988
+          Length:          21
+          ReplacementText: GLIBCXX_HAVE_VWSCANF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_WCHAR_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      38081
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          38081
+          Length:          21
+          ReplacementText: GLIBCXX_HAVE_WCHAR_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_WCSTOF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      38149
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          38149
+          Length:          20
+          ReplacementText: GLIBCXX_HAVE_WCSTOF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HAVE_WCTYPE_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      38242
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          38242
+          Length:          22
+          ReplacementText: GLIBCXX_HAVE_WCTYPE_H
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_PACKAGE_BUGREPORT'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      44921
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          44921
+          Length:          26
+          ReplacementText: GLIBCXX_PACKAGE_BUGREPORT
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_PACKAGE_NAME'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      45010
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          45010
+          Length:          21
+          ReplacementText: GLIBCXX_PACKAGE_NAME
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_PACKAGE_STRING'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      45120
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          45120
+          Length:          23
+          ReplacementText: GLIBCXX_PACKAGE_STRING
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_PACKAGE_TARNAME'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      45247
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          45247
+          Length:          24
+          ReplacementText: GLIBCXX_PACKAGE_TARNAME
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_PACKAGE_URL'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      45344
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          45344
+          Length:          20
+          ReplacementText: GLIBCXX_PACKAGE_URL
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_PACKAGE__GLIBCXX_VERSION'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      45425
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          45425
+          Length:          33
+          ReplacementText: GLIBCXX_PACKAGE__GLIBCXX_VERSION
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX11_USE_C99_MATH'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      46384
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          46384
+          Length:          23
+          ReplacementText: GLIBCXX11_USE_C99_MATH
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX11_USE_C99_STDIO'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      46538
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          46538
+          Length:          24
+          ReplacementText: GLIBCXX11_USE_C99_STDIO
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX11_USE_C99_STDLIB'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      46695
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          46695
+          Length:          25
+          ReplacementText: GLIBCXX11_USE_C99_STDLIB
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX11_USE_C99_WCHAR'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      46851
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          46851
+          Length:          24
+          ReplacementText: GLIBCXX11_USE_C99_WCHAR
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX98_USE_C99_MATH'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      47244
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          47244
+          Length:          23
+          ReplacementText: GLIBCXX98_USE_C99_MATH
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX98_USE_C99_STDIO'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      47398
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          47398
+          Length:          24
+          ReplacementText: GLIBCXX98_USE_C99_STDIO
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX98_USE_C99_STDLIB'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      47555
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          47555
+          Length:          25
+          ReplacementText: GLIBCXX98_USE_C99_STDLIB
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX98_USE_C99_WCHAR'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      47711
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          47711
+          Length:          24
+          ReplacementText: GLIBCXX98_USE_C99_WCHAR
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_FULLY_DYNAMIC_STRING'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      48065
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          48065
+          Length:          29
+          ReplacementText: GLIBCXX_FULLY_DYNAMIC_STRING
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_HOSTED'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      48270
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          48270
+          Length:          15
+          ReplacementText: GLIBCXX_HOSTED
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_MANGLE_SIZE_T'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      48429
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          48429
+          Length:          22
+          ReplacementText: GLIBCXX_MANGLE_SIZE_T
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_PTRDIFF_T_IS_INT'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      48624
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          48624
+          Length:          25
+          ReplacementText: GLIBCXX_PTRDIFF_T_IS_INT
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_SIZE_T_IS_UINT'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      48816
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          48816
+          Length:          23
+          ReplacementText: GLIBCXX_SIZE_T_IS_UINT
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_STDIO_EOF'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      48909
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          48909
+          Length:          18
+          ReplacementText: GLIBCXX_STDIO_EOF
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message:         macro replacement list should be enclosed in parentheses
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      48928
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          48928
+          Length:          0
+          ReplacementText: '('
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          48930
+          Length:          0
+          ReplacementText: ')'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_STDIO_SEEK_CUR'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      49003
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          49003
+          Length:          23
+          ReplacementText: GLIBCXX_STDIO_SEEK_CUR
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_STDIO_SEEK_END'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      49101
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          49101
+          Length:          23
+          ReplacementText: GLIBCXX_STDIO_SEEK_END
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_C99_CTYPE_TR1'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      50291
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          50291
+          Length:          26
+          ReplacementText: GLIBCXX_USE_C99_CTYPE_TR1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_C99_INTTYPES_TR1'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      50589
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          50589
+          Length:          29
+          ReplacementText: GLIBCXX_USE_C99_INTTYPES_TR1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_C99_INTTYPES_WCHAR_T_TR1'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      50752
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          50752
+          Length:          37
+          ReplacementText: GLIBCXX_USE_C99_INTTYPES_WCHAR_T_TR1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_C99_MATH_TR1'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      50917
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          50917
+          Length:          25
+          ReplacementText: GLIBCXX_USE_C99_MATH_TR1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_C99_STDINT_TR1'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      51060
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          51060
+          Length:          27
+          ReplacementText: GLIBCXX_USE_C99_STDINT_TR1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_GETTIMEOFDAY'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      51943
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          51943
+          Length:          25
+          ReplacementText: GLIBCXX_USE_GETTIMEOFDAY
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_LONG_LONG'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      52312
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          52312
+          Length:          22
+          ReplacementText: GLIBCXX_USE_LONG_LONG
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_SC_NPROCESSORS_ONLN'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      53240
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          53240
+          Length:          32
+          ReplacementText: GLIBCXX_USE_SC_NPROCESSORS_ONLN
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_TMPNAM'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      53761
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          53761
+          Length:          19
+          ReplacementText: GLIBCXX_USE_TMPNAM
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_USE_WCHAR_T'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      54083
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          54083
+          Length:          20
+          ReplacementText: GLIBCXX_USE_WCHAR_T
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_VERBOSE'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      54183
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          54183
+          Length:          16
+          ReplacementText: GLIBCXX_VERBOSE
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GTHREAD_USE_MUTEX_TIMEDLOCK'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+      FileOffset:      54341
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/arm/v5te/hard/bits/c++config.h'
+          Offset:          54341
+          Length:          28
+          ReplacementText: GTHREAD_USE_MUTEX_TIMEDLOCK
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

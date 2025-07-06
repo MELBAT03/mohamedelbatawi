@@ -1,0 +1,20 @@
+# srec_cat command file to add the CRC and produce application file to be flashed
+# Usage: srec_cat @filename
+
+#first: create CRC checksum
+build.srec                 # input file
+-fill 0xFF 0x00 0x2F000            # fill code area with 0xff
+-crop 0x00 0x2EFFE                 # just keep code area for CRC calculation below (CRC will be at 0x2EFFE..0x2EFFF)
+-CRC16_Big_Endian 0x2EFFE -CCITT   # calculate big endian CCITT CRC16 at given address.
+-crop 0x2EFFE 0x2F000              # keep the CRC itself
+
+#second: add application file
+build.srec                 # input file
+-fill 0xFF 0x00 0x2EFFE            # fill code area with 0xff
+
+#finally, produce the output file
+-Output                            # produce output
+build_crc.srec
+
+--Line_Length 46
+-data-only

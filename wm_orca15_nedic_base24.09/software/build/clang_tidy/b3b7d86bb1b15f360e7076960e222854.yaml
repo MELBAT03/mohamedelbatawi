@@ -1,0 +1,137 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\c17m24\inc\reg\adc12a_reg.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+      FileOffset:      578
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+          Offset:          578
+          Length:          14
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_CORE_C17M24_INC_REG_ADC12A_REG_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+          Offset:          602
+          Length:          14
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_CORE_C17M24_INC_REG_ADC12A_REG_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+          Offset:          26169
+          Length:          23
+          ReplacementText: 'endif // D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_CORE_C17M24_INC_REG_ADC12A_REG_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         '''c17_mcu_select.h'' file not found'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+      FileOffset:      673
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+          FileOffset:      673
+          Length:          18
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''ADC12_NCTL_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 16 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+      FileOffset:      802
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+          Offset:          3333
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct ''ADC12_NCTL_REG_BIT_TAG'' to 16 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+        FileOffset:      802
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''ADC12_NTRG_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 16 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+      FileOffset:      3522
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+          Offset:          8838
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct ''ADC12_NTRG_REG_BIT_TAG'' to 16 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+        FileOffset:      3522
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''ADC12_NCFG_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 4 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+      FileOffset:      9013
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+          Offset:          11435
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(4)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(4)))" to align struct ''ADC12_NCFG_REG_BIT_TAG'' to 4 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+        FileOffset:      9013
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''ADC12_NINTF_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 32 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+      FileOffset:      11612
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+          Offset:          19668
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(32)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(32)))" to align struct ''ADC12_NINTF_REG_BIT_TAG'' to 32 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+        FileOffset:      11612
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''ADC12_NINTE_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 32 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+      FileOffset:      19848
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+          Offset:          25712
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(32)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(32)))" to align struct ''ADC12_NINTE_REG_BIT_TAG'' to 32 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/adc12a_reg.h'
+        FileOffset:      19848
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

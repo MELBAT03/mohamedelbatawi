@@ -1,0 +1,697 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\cmsis\arm-none-eabi\include\c++\9.2.1\arm-none-eabi\thumb\v7\nofp\bits\gthr-single.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      1086
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          1086
+          Length:          26
+          ReplacementText: 'C++_9_2_1_ARM_NONE_EABI_THUMB_V7_NOFP_BITS_GTHR_SINGLE_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          1122
+          Length:          26
+          ReplacementText: 'C++_9_2_1_ARM_NONE_EABI_THUMB_V7_NOFP_BITS_GTHR_SINGLE_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          7064
+          Length:          40
+          ReplacementText: 'endif // C++_9_2_1_ARM_NONE_EABI_THUMB_V7_NOFP_BITS_GTHR_SINGLE_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_GCC_GTHR_SINGLE_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      1122
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_key_t'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      1221
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          1221
+          Length:          15
+          ReplacementText: gthread_key_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5647
+          Length:          6
+          ReplacementText: gthread_key_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5697
+          Length:          15
+          ReplacementText: gthread_key_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5758
+          Length:          6
+          ReplacementText: gthread_key_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5803
+          Length:          15
+          ReplacementText: gthread_key_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5864
+          Length:          6
+          ReplacementText: gthread_key_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5906
+          Length:          15
+          ReplacementText: gthread_key_t
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_once_t'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      1251
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          1251
+          Length:          16
+          ReplacementText: gthread_once_t
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_mutex_t'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      1282
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          1282
+          Length:          17
+          ReplacementText: gthread_mutex_t
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_recursive_mutex_t'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      1314
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          1314
+          Length:          27
+          ReplacementText: gthread_recursive_mutex_t
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__GTHREAD_ONCE_INIT'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      1354
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          1354
+          Length:          19
+          ReplacementText: GTHREAD_ONCE_INIT
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__GTHREAD_MUTEX_INIT'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      1385
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          1385
+          Length:          20
+          ReplacementText: GTHREAD_MUTEX_INIT
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__GTHREAD_MUTEX_INIT_FUNCTION'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      1417
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          1417
+          Length:          29
+          ReplacementText: GTHREAD_MUTEX_INIT_FUNCTION
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__GTHREAD_RECURSIVE_MUTEX_INIT'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      1476
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          1476
+          Length:          30
+          ReplacementText: GTHREAD_RECURSIVE_MUTEX_INIT
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_UNUSED'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      1520
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          1520
+          Length:          15
+          ReplacementText: GLIBCXX_UNUSED
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5409
+          Length:          15
+          ReplacementText: GLIBCXX_UNUSED
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5448
+          Length:          15
+          ReplacementText: GLIBCXX_UNUSED
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5505
+          Length:          15
+          ReplacementText: GLIBCXX_UNUSED
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5567
+          Length:          15
+          ReplacementText: GLIBCXX_UNUSED
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5608
+          Length:          15
+          ReplacementText: GLIBCXX_UNUSED
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5658
+          Length:          15
+          ReplacementText: GLIBCXX_UNUSED
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5719
+          Length:          15
+          ReplacementText: GLIBCXX_UNUSED
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5825
+          Length:          15
+          ReplacementText: GLIBCXX_UNUSED
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5928
+          Length:          15
+          ReplacementText: GLIBCXX_UNUSED
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5961
+          Length:          15
+          ReplacementText: GLIBCXX_UNUSED
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6071
+          Length:          15
+          ReplacementText: GLIBCXX_UNUSED
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6178
+          Length:          15
+          ReplacementText: GLIBCXX_UNUSED
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6288
+          Length:          15
+          ReplacementText: GLIBCXX_UNUSED
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6397
+          Length:          15
+          ReplacementText: GLIBCXX_UNUSED
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_active_p'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5301
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5301
+          Length:          18
+          ReplacementText: gthread_active_p
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-unused-function
+    DiagnosticMessage:
+      Message:         'unused function ''__gthread_active_p'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5301
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_once'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5368
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5368
+          Length:          14
+          ReplacementText: gthread_once
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-unused-function
+    DiagnosticMessage:
+      Message:         'unused function ''__gthread_once'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5368
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__once'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5402
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5402
+          Length:          6
+          ReplacementText: _once
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__func'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5433
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5433
+          Length:          6
+          ReplacementText: _func
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_key_create'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5522
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5522
+          Length:          20
+          ReplacementText: gthread_key_create
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__key'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5561
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5561
+          Length:          5
+          ReplacementText: _key
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__func'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5591
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5591
+          Length:          6
+          ReplacementText: _func
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_key_delete'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5675
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5675
+          Length:          20
+          ReplacementText: gthread_key_delete
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__key'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5713
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5713
+          Length:          5
+          ReplacementText: _key
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_getspecific'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5780
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5780
+          Length:          21
+          ReplacementText: gthread_getspecific
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-unused-function
+    DiagnosticMessage:
+      Message:         'unused function ''__gthread_getspecific'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5780
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__key'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5819
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5819
+          Length:          5
+          ReplacementText: _key
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_setspecific'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5883
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5883
+          Length:          21
+          ReplacementText: gthread_setspecific
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-unused-function
+    DiagnosticMessage:
+      Message:         'unused function ''__gthread_setspecific'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5883
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__key'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5922
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5922
+          Length:          5
+          ReplacementText: _key
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__v'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      5957
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          5957
+          Length:          3
+          ReplacementText: _v
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_mutex_destroy'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6019
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6019
+          Length:          23
+          ReplacementText: gthread_mutex_destroy
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6971
+          Length:          23
+          ReplacementText: gthread_mutex_destroy
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6063
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6063
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_mutex_lock'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6129
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6129
+          Length:          20
+          ReplacementText: gthread_mutex_lock
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6538
+          Length:          20
+          ReplacementText: gthread_mutex_lock
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6170
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6170
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_mutex_trylock'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6236
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6236
+          Length:          23
+          ReplacementText: gthread_mutex_trylock
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6681
+          Length:          23
+          ReplacementText: gthread_mutex_trylock
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6280
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6280
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_mutex_unlock'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6346
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6346
+          Length:          22
+          ReplacementText: gthread_mutex_unlock
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6826
+          Length:          22
+          ReplacementText: gthread_mutex_unlock
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6389
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6389
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_recursive_mutex_lock'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6455
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6455
+          Length:          30
+          ReplacementText: gthread_recursive_mutex_lock
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-unused-function
+    DiagnosticMessage:
+      Message:         'unused function ''__gthread_recursive_mutex_lock'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6455
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6516
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6516
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6560
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_recursive_mutex_trylock'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6595
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6595
+          Length:          33
+          ReplacementText: gthread_recursive_mutex_trylock
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-unused-function
+    DiagnosticMessage:
+      Message:         'unused function ''__gthread_recursive_mutex_trylock'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6595
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6659
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6659
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6706
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_recursive_mutex_unlock'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6741
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6741
+          Length:          32
+          ReplacementText: gthread_recursive_mutex_unlock
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-unused-function
+    DiagnosticMessage:
+      Message:         'unused function ''__gthread_recursive_mutex_unlock'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6741
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6804
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6804
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6850
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_recursive_mutex_destroy'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6885
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6885
+          Length:          33
+          ReplacementText: gthread_recursive_mutex_destroy
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-unused-function
+    DiagnosticMessage:
+      Message:         'unused function ''__gthread_recursive_mutex_destroy'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6885
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+      FileOffset:      6949
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6949
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7/nofp/bits/gthr-single.h'
+          Offset:          6996
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

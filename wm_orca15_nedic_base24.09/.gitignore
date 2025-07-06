@@ -1,0 +1,31 @@
+software/build/obj/*.o
+software/build/.dep/*.d
+software/build/.lst
+software/build/*.hex
+software/build/*.bin
+software/build/*.elf
+software/build/*.srec
+software/build/*.map
+software/build/*.lss
+software/build/*.sym
+software/build/compile_commands.json
+# software/.cache
+tools/
+.github/
+.devcontainer
+bitbucket-pipelines.yml
+start_container.sh
+software/tests/*
+# software/build/test.mk
+# ~$*.xlsx
+software/tests/build/exe/*.exe
+software/tests/build/exe/*.gcda
+software/tests/build/exe/*.gcno
+software/tests/build/obj/*.gcda
+software/tests/build/obj/*.gcno
+software/tests/build/obj/*.o
+software/tests/build/.dep/*.d
+*.ctu-info
+*.dump
+
+software/build/iar/Debug/

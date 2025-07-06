@@ -1,0 +1,227 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\c17m24\inc\reg\itc_m20_m21_m22_m23_m24_m25_reg.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+      FileOffset:      520
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+          Offset:          520
+          Length:          11
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_CORE_C17M24_INC_REG_ITC_M20_M21_M22_M23_M24_M25_REG_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+          Offset:          541
+          Length:          11
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_CORE_C17M24_INC_REG_ITC_M20_M21_M22_M23_M24_M25_REG_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+          Offset:          22517
+          Length:          20
+          ReplacementText: 'endif // D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_CORE_C17M24_INC_REG_ITC_M20_M21_M22_M23_M24_M25_REG_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''ITCLV0_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 8 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+      FileOffset:      711
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+          Offset:          2695
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(8)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(8)))" to align struct ''ITCLV0_REG_BIT_TAG'' to 8 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+        FileOffset:      711
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''ITCLV1_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 8 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+      FileOffset:      2864
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+          Offset:          3935
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(8)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(8)))" to align struct ''ITCLV1_REG_BIT_TAG'' to 8 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+        FileOffset:      2864
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''ITCLV2_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 8 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+      FileOffset:      4104
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+          Offset:          6093
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(8)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(8)))" to align struct ''ITCLV2_REG_BIT_TAG'' to 8 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+        FileOffset:      4104
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''ITCLV3_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 8 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+      FileOffset:      6262
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+          Offset:          8245
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(8)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(8)))" to align struct ''ITCLV3_REG_BIT_TAG'' to 8 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+        FileOffset:      6262
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''ITCLV4_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 8 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+      FileOffset:      8414
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+          Offset:          10412
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(8)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(8)))" to align struct ''ITCLV4_REG_BIT_TAG'' to 8 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+        FileOffset:      8414
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''ITCLV5_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 8 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+      FileOffset:      10581
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+          Offset:          12582
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(8)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(8)))" to align struct ''ITCLV5_REG_BIT_TAG'' to 8 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+        FileOffset:      10581
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''ITCLV6_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 8 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+      FileOffset:      12751
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+          Offset:          14734
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(8)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(8)))" to align struct ''ITCLV6_REG_BIT_TAG'' to 8 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+        FileOffset:      12751
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''ITCLV7_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 4 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+      FileOffset:      14903
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+          Offset:          15916
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(4)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(4)))" to align struct ''ITCLV7_REG_BIT_TAG'' to 4 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+        FileOffset:      14903
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''ITCLV8_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 8 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+      FileOffset:      16085
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+          Offset:          18079
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(8)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(8)))" to align struct ''ITCLV8_REG_BIT_TAG'' to 8 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+        FileOffset:      16085
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''ITCLV9_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 8 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+      FileOffset:      18248
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+          Offset:          20256
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(8)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(8)))" to align struct ''ITCLV9_REG_BIT_TAG'' to 8 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+        FileOffset:      18248
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''ITCLV10_REG_BIT_TAG'' is inefficient due to poor alignment; currently aligned to 2 bytes, but recommended alignment is 8 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+      FileOffset:      20427
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+          Offset:          22424
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(8)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(8)))" to align struct ''ITCLV10_REG_BIT_TAG'' to 8 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/c17m24/inc/reg/itc_m20_m21_m22_m23_m24_m25_reg.h'
+        FileOffset:      20427
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

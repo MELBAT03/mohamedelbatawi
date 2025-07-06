@@ -1,0 +1,14 @@
+
+power on
+si SWD
+speed 1000
+Device TMPM370FYFG
+power on
+w4 0x40040000, 0x00
+w4 0x40040004, 0xb1
+power on
+erase
+loadfile build/project.hex
+verifybin build/project.bin, 0x00
+r
+q

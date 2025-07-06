@@ -1,0 +1,201 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\os\test\test_os_scheduler.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         '''unity.h'' file not found'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+      FileOffset:      355
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+          FileOffset:      355
+          Length:          9
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-include-order
+    DiagnosticMessage:
+      Message:         '#includes are not sorted properly'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+      FileOffset:      366
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+          Offset:          375
+          Length:          18
+          ReplacementText: "\"os_config.h\"\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+          Offset:          403
+          Length:          14
+          ReplacementText: "\"os_scheduler.h\"\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+          Offset:          427
+          Length:          17
+          ReplacementText: "\"unity_fixture.h\"\r"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-easily-swappable-parameters
+    DiagnosticMessage:
+      Message:         '2 adjacent parameters of ''TEST'' of similar type (''int'') are easily swapped by mistake'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+      FileOffset:      570
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+          FileOffset:      570
+          Length:          25
+    Notes:
+      - Message:         'the first parameter in the range is ''scheduler'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+        FileOffset:      570
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+            FileOffset:      570
+            Length:          9
+      - Message:         'the last parameter in the range is ''init_timeTasks'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+        FileOffset:      581
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+            FileOffset:      581
+            Length:          14
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+      FileOffset:      731
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  readability-inconsistent-declaration-parameter-name
+    DiagnosticMessage:
+      Message:         'function ''TEST'' has a definition with different parameter names'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+      FileOffset:      1220
+      Replacements:    []
+    Notes:
+      - Message:         the definition seen here
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+        FileOffset:      565
+        Replacements:    []
+      - Message:         'differing parameters are named here: (''init_eventTasks''), in definition: (''init_timeTasks'')'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+        FileOffset:      1220
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-easily-swappable-parameters
+    DiagnosticMessage:
+      Message:         '2 adjacent parameters of ''TEST'' of similar type (''int'') are easily swapped by mistake'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+      FileOffset:      1225
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+          FileOffset:      1225
+          Length:          26
+    Notes:
+      - Message:         'the first parameter in the range is ''scheduler'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+        FileOffset:      1225
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+            FileOffset:      1225
+            Length:          9
+      - Message:         'the last parameter in the range is ''init_eventTasks'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+        FileOffset:      1236
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+            FileOffset:      1236
+            Length:          15
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+      FileOffset:      1359
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-easily-swappable-parameters
+    DiagnosticMessage:
+      Message:         '2 adjacent parameters of ''TEST'' of similar type (''int'') are easily swapped by mistake'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+      FileOffset:      1949
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+          FileOffset:      1949
+          Length:          27
+    Notes:
+      - Message:         'the first parameter in the range is ''scheduler'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+        FileOffset:      1949
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+            FileOffset:      1949
+            Length:          9
+      - Message:         'the last parameter in the range is ''startupSyncCheck'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+        FileOffset:      1960
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+            FileOffset:      1960
+            Length:          16
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-easily-swappable-parameters
+    DiagnosticMessage:
+      Message:         '2 adjacent parameters of ''TEST'' of similar type (''int'') are easily swapped by mistake'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+      FileOffset:      2221
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+          FileOffset:      2221
+          Length:          18
+    Notes:
+      - Message:         'the first parameter in the range is ''scheduler'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+        FileOffset:      2221
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+            FileOffset:      2221
+            Length:          9
+      - Message:         'the last parameter in the range is ''taskAdd'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+        FileOffset:      2232
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/os/test/test_os_scheduler.c'
+            FileOffset:      2232
+            Length:          7
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

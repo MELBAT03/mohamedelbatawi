@@ -1,0 +1,207 @@
+---
+MainSourceFile: 'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\ht66f489\ht489.h'
+Diagnostics:
+  - DiagnosticName: clang-diagnostic-error
+    DiagnosticMessage:
+      Message: "unknown argument: '-mapcs-frame'"
+      FilePath: ""
+      FileOffset: 0
+      Replacements: []
+    Level: Error
+    BuildDirectory: ""
+  - DiagnosticName: clang-diagnostic-error
+    DiagnosticMessage:
+      Message: "unknown argument: '-mthumb-interwork'"
+      FilePath: ""
+      FileOffset: 0
+      Replacements: []
+    Level: Error
+    BuildDirectory: ""
+  - DiagnosticName: llvm-header-guard
+    DiagnosticMessage:
+      Message: header guard does not follow preferred style
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+      FileOffset: 8
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 8
+          Length: 15
+          ReplacementText: "D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_CORE_HT66F489_HT489_H"
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 33
+          Length: 15
+          ReplacementText: "D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_CORE_HT66F489_HT489_H"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: llvm-include-order
+    DiagnosticMessage:
+      Message: "#includes are not sorted properly"
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+      FileOffset: 73
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 82
+          Length: 8
+          ReplacementText: "\"HT66F489.h\"\r"
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 100
+          Length: 13
+          ReplacementText: "\"board.h\"\r"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: clang-diagnostic-error
+    DiagnosticMessage:
+      Message: "'HT66F489.h' file not found"
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+      FileOffset: 100
+      Replacements: []
+      Ranges:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          FileOffset: 100
+          Length: 12
+    Level: Error
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+      FileOffset: 2854
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 2854
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 2857
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+      FileOffset: 2864
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 2864
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 2869
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+      FileOffset: 2881
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 2881
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 2884
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+      FileOffset: 2959
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 2959
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 2962
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+      FileOffset: 2969
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 2969
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 2974
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+      FileOffset: 2986
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 2986
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 2989
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+      FileOffset: 3053
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 3053
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 3056
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+      FileOffset: 3062
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 3062
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 3065
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+      FileOffset: 16222
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 16222
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f489/ht489.h"
+          Offset: 16226
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"

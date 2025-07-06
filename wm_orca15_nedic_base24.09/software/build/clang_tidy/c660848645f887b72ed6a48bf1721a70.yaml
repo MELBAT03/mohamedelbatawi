@@ -1,0 +1,2119 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\cmsis\arm-none-eabi\include\c++\9.2.1\arm-none-eabi\thumb\v7e-m+dp\hard\bits\gthr-posix.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      1086
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          1086
+          Length:          25
+          ReplacementText: 'C++_9_2_1_ARM_NONE_EABI_THUMB_V7E_M+DP_HARD_BITS_GTHR_POSIX_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          1121
+          Length:          25
+          ReplacementText: 'C++_9_2_1_ARM_NONE_EABI_THUMB_V7E_M+DP_HARD_BITS_GTHR_POSIX_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          25109
+          Length:          39
+          ReplacementText: 'endif // C++_9_2_1_ARM_NONE_EABI_THUMB_V7E_M+DP_HARD_BITS_GTHR_POSIX_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GLIBCXX_GCC_GTHR_POSIX_H'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      1121
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__GTHREADS'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      1262
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          1262
+          Length:          10
+          ReplacementText: GTHREADS
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__GTHREADS_CXX0X'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      1284
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          1284
+          Length:          16
+          ReplacementText: GTHREADS_CXX0X
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_GTHREAD_USE_MUTEX_TIMEDLOCK'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      1570
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          1570
+          Length:          28
+          ReplacementText: GTHREAD_USE_MUTEX_TIMEDLOCK
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          4015
+          Length:          28
+          ReplacementText: GTHREAD_USE_MUTEX_TIMEDLOCK
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21937
+          Length:          28
+          ReplacementText: GTHREAD_USE_MUTEX_TIMEDLOCK
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23371
+          Length:          28
+          ReplacementText: GTHREAD_USE_MUTEX_TIMEDLOCK
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_t'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      1639
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          1639
+          Length:          11
+          ReplacementText: gthread_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          19874
+          Length:          6
+          ReplacementText: gthread_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          19909
+          Length:          11
+          ReplacementText: gthread_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20022
+          Length:          6
+          ReplacementText: gthread_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20059
+          Length:          11
+          ReplacementText: gthread_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20141
+          Length:          6
+          ReplacementText: gthread_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20177
+          Length:          11
+          ReplacementText: gthread_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20195
+          Length:          11
+          ReplacementText: gthread_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20270
+          Length:          6
+          ReplacementText: gthread_t
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_key_t'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      1675
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          1675
+          Length:          15
+          ReplacementText: gthread_key_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20807
+          Length:          6
+          ReplacementText: gthread_key_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20848
+          Length:          15
+          ReplacementText: gthread_key_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20928
+          Length:          6
+          ReplacementText: gthread_key_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20973
+          Length:          15
+          ReplacementText: gthread_key_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21054
+          Length:          6
+          ReplacementText: gthread_key_t
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21096
+          Length:          15
+          ReplacementText: gthread_key_t
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_once_t'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      1716
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          1716
+          Length:          16
+          ReplacementText: gthread_once_t
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_mutex_t'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      1759
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          1759
+          Length:          17
+          ReplacementText: gthread_mutex_t
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_recursive_mutex_t'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      1803
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          1803
+          Length:          27
+          ReplacementText: gthread_recursive_mutex_t
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_cond_t'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      1856
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          1856
+          Length:          16
+          ReplacementText: gthread_cond_t
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_time_t'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      1899
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          1899
+          Length:          16
+          ReplacementText: gthread_time_t
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__GTHREAD_HAS_COND'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      2035
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          2035
+          Length:          18
+          ReplacementText: GTHREAD_HAS_COND
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__GTHREAD_MUTEX_INIT'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      2067
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          2067
+          Length:          20
+          ReplacementText: GTHREAD_MUTEX_INIT
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__GTHREAD_MUTEX_INIT_FUNCTION'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      2123
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          2123
+          Length:          29
+          ReplacementText: GTHREAD_MUTEX_INIT_FUNCTION
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__GTHREAD_ONCE_INIT'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      2192
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          2192
+          Length:          19
+          ReplacementText: GTHREAD_ONCE_INIT
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__GTHREAD_RECURSIVE_MUTEX_INIT_FUNCTION'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      2506
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          2506
+          Length:          39
+          ReplacementText: GTHREAD_RECURSIVE_MUTEX_INIT_FUNCTION
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__GTHREAD_COND_INIT'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      2603
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          2603
+          Length:          19
+          ReplacementText: GTHREAD_COND_INIT
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__GTHREAD_TIME_INIT'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      2657
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          2657
+          Length:          19
+          ReplacementText: GTHREAD_TIME_INIT
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthrw_'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      3509
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          3509
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          19807
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          19966
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20096
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20226
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20332
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20420
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20581
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20755
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20884
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21009
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21151
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21320
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21489
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21675
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21861
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22345
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22731
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22800
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22907
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22981
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24205
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24335
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24488
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24698
+          Length:          8
+          ReplacementText: gthrw_
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          25036
+          Length:          8
+          ReplacementText: gthrw_
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthrw'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      3614
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          3614
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          3668
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          3691
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          3721
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          3753
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          3778
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          3801
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          3825
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          3848
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          3893
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          3926
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          3950
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          3979
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          4087
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          4118
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          4147
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          4181
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          4209
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          4242
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          4272
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          4300
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          4333
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          4366
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          4395
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          4424
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          4457
+          Length:          7
+          ReplacementText: gthrw
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          4493
+          Length:          7
+          ReplacementText: gthrw
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_active_p'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      10983
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          10983
+          Length:          18
+          ReplacementText: gthread_active_p
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20546
+          Length:          18
+          ReplacementText: gthread_active_p
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21292
+          Length:          18
+          ReplacementText: gthread_active_p
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21454
+          Length:          18
+          ReplacementText: gthread_active_p
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21640
+          Length:          18
+          ReplacementText: gthread_active_p
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21826
+          Length:          18
+          ReplacementText: gthread_active_p
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22310
+          Length:          18
+          ReplacementText: gthread_active_p
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22635
+          Length:          18
+          ReplacementText: gthread_active_p
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_create'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      19707
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          19707
+          Length:          16
+          ReplacementText: gthread_create
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__threadid'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      19738
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          19738
+          Length:          10
+          ReplacementText: _threadid
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          19833
+          Length:          10
+          ReplacementText: _threadid
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__func'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      19758
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          19758
+          Length:          6
+          ReplacementText: _func
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          19851
+          Length:          6
+          ReplacementText: _func
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__args'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      19786
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          19786
+          Length:          6
+          ReplacementText: _args
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          19859
+          Length:          6
+          ReplacementText: _args
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_create''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      19816
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_join'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      19893
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          19893
+          Length:          14
+          ReplacementText: gthread_join
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__threadid'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      19921
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          19921
+          Length:          10
+          ReplacementText: _threadid
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          19990
+          Length:          10
+          ReplacementText: _threadid
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__value_ptr'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      19940
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          19940
+          Length:          11
+          ReplacementText: _value_ptr
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20002
+          Length:          11
+          ReplacementText: _value_ptr
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_join''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      19975
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_detach'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20041
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20041
+          Length:          16
+          ReplacementText: gthread_detach
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__threadid'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20071
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20071
+          Length:          10
+          ReplacementText: _threadid
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20122
+          Length:          10
+          ReplacementText: _threadid
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_detach''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20105
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_equal'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20160
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20160
+          Length:          15
+          ReplacementText: gthread_equal
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__t1'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20189
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20189
+          Length:          4
+          ReplacementText: _t1
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20251
+          Length:          4
+          ReplacementText: _t1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__t2'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20207
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20207
+          Length:          4
+          ReplacementText: _t2
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20257
+          Length:          4
+          ReplacementText: _t2
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_equal''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20235
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_self'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20297
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20297
+          Length:          14
+          ReplacementText: gthread_self
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_self''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20341
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_yield'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20384
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20384
+          Length:          15
+          ReplacementText: gthread_yield
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''sched_yield''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20429
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_once'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20471
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20471
+          Length:          14
+          ReplacementText: gthread_once
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__once'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20505
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20505
+          Length:          6
+          ReplacementText: _once
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20605
+          Length:          6
+          ReplacementText: _once
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__func'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20520
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20520
+          Length:          6
+          ReplacementText: _func
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20613
+          Length:          6
+          ReplacementText: _func
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20568
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20568
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20625
+          Length:          0
+          ReplacementText: '} '
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_once''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20590
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-else-after-return
+    DiagnosticMessage:
+      Message:         'do not use ''else'' after ''return'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20625
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20625
+          Length:          19
+          ReplacementText: "\n    return -1"
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          FileOffset:      20625
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20629
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_key_create'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20671
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20671
+          Length:          20
+          ReplacementText: gthread_key_create
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__key'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20710
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20710
+          Length:          5
+          ReplacementText: _key
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20785
+          Length:          5
+          ReplacementText: _key
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__dtor'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20724
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20724
+          Length:          6
+          ReplacementText: _dtor
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20792
+          Length:          6
+          ReplacementText: _dtor
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_key_create''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20764
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_key_delete'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20826
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20826
+          Length:          20
+          ReplacementText: gthread_key_delete
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__key'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20864
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20864
+          Length:          5
+          ReplacementText: _key
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20914
+          Length:          5
+          ReplacementText: _key
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_key_delete''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20893
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_getspecific'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20950
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20950
+          Length:          21
+          ReplacementText: gthread_getspecific
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__key'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      20989
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          20989
+          Length:          5
+          ReplacementText: _key
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21040
+          Length:          5
+          ReplacementText: _key
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_getspecific''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21018
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-int-conversion
+    DiagnosticMessage:
+      Message:         'incompatible integer to pointer conversion returning ''int'' from a function with result type ''void *'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21018
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''__gthrw_'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+        FileOffset:      3524
+        Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21018
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_setspecific'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21073
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21073
+          Length:          21
+          ReplacementText: gthread_setspecific
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__key'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21112
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21112
+          Length:          5
+          ReplacementText: _key
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21182
+          Length:          5
+          ReplacementText: _key
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__ptr'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21131
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21131
+          Length:          5
+          ReplacementText: _ptr
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21189
+          Length:          5
+          ReplacementText: _ptr
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_setspecific''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21160
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_mutex_init_function'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21223
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21223
+          Length:          29
+          ReplacementText: gthread_mutex_init_function
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21273
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21273
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21350
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21314
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21314
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21365
+          Length:          0
+          ReplacementText: "\n}"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_mutex_init''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21329
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_mutex_destroy'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21391
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21391
+          Length:          23
+          ReplacementText: gthread_mutex_destroy
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23872
+          Length:          23
+          ReplacementText: gthread_mutex_destroy
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21435
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21435
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21522
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21476
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21476
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21535
+          Length:          0
+          ReplacementText: '} '
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_mutex_destroy''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21498
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-else-after-return
+    DiagnosticMessage:
+      Message:         'do not use ''else'' after ''return'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21535
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21535
+          Length:          18
+          ReplacementText: "\n    return 0"
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          FileOffset:      21535
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21539
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_mutex_lock'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21580
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21580
+          Length:          20
+          ReplacementText: gthread_mutex_lock
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23183
+          Length:          20
+          ReplacementText: gthread_mutex_lock
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21621
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21621
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21705
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21662
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21662
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21718
+          Length:          0
+          ReplacementText: '} '
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_mutex_lock''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21684
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-else-after-return
+    DiagnosticMessage:
+      Message:         'do not use ''else'' after ''return'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21718
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21718
+          Length:          18
+          ReplacementText: "\n    return 0"
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          FileOffset:      21718
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21722
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_mutex_trylock'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21763
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21763
+          Length:          23
+          ReplacementText: gthread_mutex_trylock
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23326
+          Length:          23
+          ReplacementText: gthread_mutex_trylock
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21807
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21807
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21894
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21848
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21848
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21907
+          Length:          0
+          ReplacementText: '} '
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_mutex_trylock''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21870
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-else-after-return
+    DiagnosticMessage:
+      Message:         'do not use ''else'' after ''return'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21907
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          21907
+          Length:          18
+          ReplacementText: "\n    return 0"
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          FileOffset:      21907
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      21911
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_mutex_unlock'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22248
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22248
+          Length:          22
+          ReplacementText: gthread_mutex_unlock
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23727
+          Length:          22
+          ReplacementText: gthread_mutex_unlock
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22291
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22291
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22377
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22332
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22332
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22390
+          Length:          0
+          ReplacementText: '} '
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_mutex_unlock''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22354
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-else-after-return
+    DiagnosticMessage:
+      Message:         'do not use ''else'' after ''return'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22390
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22390
+          Length:          18
+          ReplacementText: "\n    return 0"
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          FileOffset:      22390
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22394
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_recursive_mutex_init_function'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22546
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22546
+          Length:          39
+          ReplacementText: gthread_recursive_mutex_init_function
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22616
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22616
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22937
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__attr'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22692
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22692
+          Length:          6
+          ReplacementText: _attr
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22766
+          Length:          6
+          ReplacementText: _attr
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22838
+          Length:          6
+          ReplacementText: _attr
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22947
+          Length:          6
+          ReplacementText: _attr
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23019
+          Length:          6
+          ReplacementText: _attr
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__r'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22711
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22711
+          Length:          3
+          ReplacementText: _r
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22725
+          Length:          3
+          ReplacementText: _r
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22787
+          Length:          3
+          ReplacementText: _r
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22794
+          Length:          3
+          ReplacementText: _r
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22894
+          Length:          3
+          ReplacementText: _r
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22901
+          Length:          3
+          ReplacementText: _r
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22968
+          Length:          3
+          ReplacementText: _r
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22975
+          Length:          3
+          ReplacementText: _r
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23042
+          Length:          3
+          ReplacementText: _r
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-init-variables
+    DiagnosticMessage:
+      Message:         'variable ''__r'' is not initialized'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22711
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22714
+          Length:          0
+          ReplacementText: ' = 0'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_mutexattr_init''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22740
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22791
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22791
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22881
+          Length:          0
+          ReplacementText: "\n}"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_mutexattr_settype''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22809
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''PTHREAD_MUTEX_RECURSIVE'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22856
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22898
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22898
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22955
+          Length:          0
+          ReplacementText: "\n}"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_mutex_init''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22916
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22972
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          22972
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23027
+          Length:          0
+          ReplacementText: "\n}"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_mutexattr_destroy''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      22990
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_recursive_mutex_lock'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      23100
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23100
+          Length:          30
+          ReplacementText: gthread_recursive_mutex_lock
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      23161
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23161
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23205
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_recursive_mutex_trylock'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      23240
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23240
+          Length:          33
+          ReplacementText: gthread_recursive_mutex_trylock
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      23304
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23304
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23351
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_recursive_mutex_unlock'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      23642
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23642
+          Length:          32
+          ReplacementText: gthread_recursive_mutex_unlock
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      23705
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23705
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23751
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_recursive_mutex_destroy'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      23786
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23786
+          Length:          33
+          ReplacementText: gthread_recursive_mutex_destroy
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      23850
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23850
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          23897
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_cond_broadcast'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24140
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24140
+          Length:          24
+          ReplacementText: gthread_cond_broadcast
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__cond'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24184
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24184
+          Length:          6
+          ReplacementText: _cond
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24239
+          Length:          6
+          ReplacementText: _cond
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_cond_broadcast''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24214
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_cond_signal'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24273
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24273
+          Length:          21
+          ReplacementText: gthread_cond_signal
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__cond'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24314
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24314
+          Length:          6
+          ReplacementText: _cond
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24366
+          Length:          6
+          ReplacementText: _cond
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_cond_signal''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24344
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_cond_wait'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24400
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24400
+          Length:          19
+          ReplacementText: gthread_cond_wait
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24909
+          Length:          19
+          ReplacementText: gthread_cond_wait
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__cond'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24439
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24439
+          Length:          6
+          ReplacementText: _cond
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24517
+          Length:          6
+          ReplacementText: _cond
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24466
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24466
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24525
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_cond_wait''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24497
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_cond_timedwait'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24560
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24560
+          Length:          24
+          ReplacementText: gthread_cond_timedwait
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__cond'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24604
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24604
+          Length:          6
+          ReplacementText: _cond
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24732
+          Length:          6
+          ReplacementText: _cond
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24631
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24631
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24740
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__abs_timeout'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24670
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24670
+          Length:          13
+          ReplacementText: _abs_timeout
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24749
+          Length:          13
+          ReplacementText: _abs_timeout
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_cond_timedwait''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24707
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_cond_wait_recursive'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24790
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24790
+          Length:          29
+          ReplacementText: gthread_cond_wait_recursive
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__cond'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24839
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24839
+          Length:          6
+          ReplacementText: _cond
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24930
+          Length:          6
+          ReplacementText: _cond
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__mutex'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24887
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24887
+          Length:          7
+          ReplacementText: _mutex
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24938
+          Length:          7
+          ReplacementText: _mutex
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__gthread_cond_destroy'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      24973
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          24973
+          Length:          22
+          ReplacementText: gthread_cond_destroy
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__cond'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      25015
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          25015
+          Length:          6
+          ReplacementText: _cond
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+          Offset:          25068
+          Length:          6
+          ReplacementText: _cond
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-implicit-function-declaration
+    DiagnosticMessage:
+      Message:         'call to undeclared function ''pthread_cond_destroy''; ISO C99 and later do not support implicit function declarations'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/arm-none-eabi/include/c++/9.2.1/arm-none-eabi/thumb/v7e-m+dp/hard/bits/gthr-posix.h'
+      FileOffset:      25045
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

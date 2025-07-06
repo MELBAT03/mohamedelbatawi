@@ -1,0 +1,225 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\cmsis\arm-none-eabi\include\sys\signal.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header is missing header guard
+      FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+      FileOffset:      0
+      Replacements:
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          0
+          Length:          0
+          ReplacementText: "#ifndef SYS_SIGNAL_H\n#define SYS_SIGNAL_H\n\n"
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          12544
+          Length:          0
+          ReplacementText: "\n#endif\n"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+      FileOffset:      30
+      Replacements:
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          30
+          Length:          13
+          ReplacementText: SYS_SIGNAL_H
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          53
+          Length:          13
+          ReplacementText: SYS_SIGNAL_H
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          12517
+          Length:          25
+          ReplacementText: 'endif // SYS_SIGNAL_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_SYS_SIGNAL_H'', which is a reserved identifier'
+      FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+      FileOffset:      53
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-include-order
+    DiagnosticMessage:
+      Message:         '#includes are not sorted properly'
+      FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+      FileOffset:      133
+      Replacements:
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          142
+          Length:          14
+          ReplacementText: "<sys/_sigset.h>\r"
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          166
+          Length:          17
+          ReplacementText: "<sys/_timespec.h>\r"
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          193
+          Length:          14
+          ReplacementText: "<sys/cdefs.h>\r"
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          217
+          Length:          16
+          ReplacementText: "<sys/features.h>\r"
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          243
+          Length:          18
+          ReplacementText: "<sys/types.h>\r"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''sigevent'' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 16 bytes'
+      FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+      FileOffset:      1278
+      Replacements:
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          1646
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct ''sigevent'' to 16 bytes'
+        FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+        FileOffset:      1278
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 16 bytes'
+      FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+      FileOffset:      2067
+      Replacements:
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          2228
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct '''' to 16 bytes'
+        FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+        FileOffset:      2067
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_sig_func_ptr'', which is reserved in the global namespace'
+      FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+      FileOffset:      3963
+      Replacements:
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          3963
+          Length:          13
+          ReplacementText: sig_func_ptr
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          4012
+          Length:          13
+          ReplacementText: sig_func_ptr
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/signal.h'
+          Offset:          538
+          Length:          13
+          ReplacementText: sig_func_ptr
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/signal.h'
+          Offset:          663
+          Length:          13
+          ReplacementText: sig_func_ptr
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''sigaction'' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 16 bytes'
+      FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+      FileOffset:      3994
+      Replacements:
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          4082
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct ''sigaction'' to 16 bytes'
+        FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+        FileOffset:      3994
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct ''sigaltstack'' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 16 bytes'
+      FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+      FileOffset:      4673
+      Replacements:
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          4836
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct ''sigaltstack'' to 16 bytes'
+        FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+        FileOffset:      4673
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  readability-avoid-const-params-in-decls
+    DiagnosticMessage:
+      Message:         'parameter 2 is const-qualified in the function declaration; const-qualification of parameters only has an effect in function definitions'
+      FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+      FileOffset:      5559
+      Replacements:
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          5559
+          Length:          6
+          ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  readability-avoid-const-params-in-decls
+    DiagnosticMessage:
+      Message:         'parameter 2 is const-qualified in the function declaration; const-qualification of parameters only has an effect in function definitions'
+      FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+      FileOffset:      5602
+      Replacements:
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          5602
+          Length:          6
+          ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  readability-avoid-const-params-in-decls
+    DiagnosticMessage:
+      Message:         'parameter 3 is const-qualified in the function declaration; const-qualification of parameters only has an effect in function definitions'
+      FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+      FileOffset:      7598
+      Replacements:
+        - FilePath:        '../source/core/cmsis/arm-none-eabi/include/sys/signal.h'
+          Offset:          7598
+          Length:          6
+          ReplacementText: ''
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

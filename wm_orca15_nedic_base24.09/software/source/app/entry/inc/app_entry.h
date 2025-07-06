@@ -1,0 +1,30 @@
+#ifndef APP_ENTRY_H
+#define APP_ENTRY_H
+
+#include "os_config.h"
+
+#define AINPUT_MODULE_UPDATE_PERIOD_MS  (20U)
+#define ZCD_UPDATE_PERIOD_MS            (20U)
+#define HM15N_UPDATE_PERIOD_MS          (20U)
+#define DOUTPUT_MODULE_UPDATE_PERIOD_MS (10U)
+#define FINPUT_MODULE_UPDATE_PERIOD_MS  (20U)
+#define DLS_LOCK_UPDATE_PERIOD_MS       (20U)
+#define BUZZER_UPDATE_PERIOD            (5U)
+#define DDM_MOTOR_UPDATE_PERIOD_MS      (20U)
+#define DISP_COM_UPDATE_PERIOD_MS       (20U)
+#define WATER_LEVEL_SENSOR_UPDATE_MS    (500U)
+#define DINPUT_MODULE_UPDATE_PERIOD_MS  (20U)
+#define KEYPAD_MODULE_UPDATE_PERIOD_MS  (20U)
+#define UART_UPDATE_PERIOD_MS           (5U)
+#define MEMS_UPDATE_PERIOD_MS           (20U)
+#define ACIN_UPDATE_PERIOD_MS           (20U)
+#define NTC_UPDATE_PERIOS_MS            (100U)
+#define PTC_HEATER_UPDATE_PERIOD_MS     (100U)
+#define HEARTBEAT_UPDATE_PERIOD_MS      (2000U)
+
+#define APP_UPDATE_PERIOD_MS        (50U)
+#define APP_MEMORY_UPDATE_PERIOD_MS (50U)
+
+void app_init(void);
+
+#endif

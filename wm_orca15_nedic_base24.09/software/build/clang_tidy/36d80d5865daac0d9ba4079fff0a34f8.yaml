@@ -1,0 +1,322 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\os\src\os_scheduler.c'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  modernize-macro-to-enum
+    DiagnosticMessage:
+      Message:         replace macro with enum
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      293
+      Replacements:
+        - FilePath:        '../source/os/src/os_scheduler.c'
+          Offset:          293
+          Length:          8
+          ReplacementText: "enum {\n"
+        - FilePath:        '../source/os/src/os_scheduler.c'
+          Offset:          334
+          Length:          0
+          ReplacementText: ' ='
+        - FilePath:        '../source/os/src/os_scheduler.c'
+          Offset:          340
+          Length:          0
+          ReplacementText: "};\n"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  modernize-macro-to-enum
+    DiagnosticMessage:
+      Message:         'macro ''OS_SCHDULER_ALLOWED_OVERRUN_TICKS'' defines an integral constant; prefer an enum instead'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      301
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''gx_os_scheduler_inetrnalUserTimeTaskHandler'' is non-const and globally accessible, consider making it const'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      462
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''gu32_os_schduler_internalUserTimeTaskCnt'' is non-const and globally accessible, consider making it const'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      566
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''gx_os_scheduler_inetrnalUserEventTaskHandler'' is non-const and globally accessible, consider making it const'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      640
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''gu8_os_scheduler_taskRelease_flag'' is non-const and globally accessible, consider making it const'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      746
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''gu8_os_scheduler_bufferedTaskOverRunTaskID'' is non-const and globally accessible, consider making it const'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      801
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0xff is a magic number; consider replacing it with a named constant'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      846
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''gu8_os_scheduler_taskOverRunTaskID'' is non-const and globally accessible, consider making it const'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      868
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0xff is a magic number; consider replacing it with a named constant'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      905
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''gu32_os_scheduler_ticksOverRunCnt'' is non-const and globally accessible, consider making it const'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      928
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''gu32_os_scheduler_overRunTick'' is non-const and globally accessible, consider making it const'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      984
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''ticks'' is non-const and globally accessible, consider making it const'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      1036
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''gu8_os_scheduler_fault'' is non-const and globally accessible, consider making it const'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      1070
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''gu8_os_scheduler_shutdown_flag'' is non-const and globally accessible, consider making it const'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      1128
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''ngu8_os_scheduler_shutdown_flag'' is non-const and globally accessible, consider making it const'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      1180
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''gx_os_scheduler_shutdownCondition'' is non-const and globally accessible, consider making it const'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      1237
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''gx_os_scheduler_shutdownCondition'' provides global access to a non-const object; consider making the pointed-to data ''const'''
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      1237
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  readability-identifier-length
+    DiagnosticMessage:
+      Message:         'variable name ''i'' is too short, expected at least 3 characters'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      1686
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      1698
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      2206
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      3047
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-easily-swappable-parameters
+    DiagnosticMessage:
+      Message:         '3 adjacent parameters of ''os_scheduler_task_add'' of convertible types are easily swapped by mistake'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      3753
+      Replacements:    []
+      Ranges:
+        - FilePath:        '../source/os/src/os_scheduler.c'
+          FileOffset:      3753
+          Length:          65
+    Notes:
+      - Message:         'the first parameter in the range is ''taskType'''
+        FilePath:        '../source/os/src/os_scheduler.c'
+        FileOffset:      3777
+        Replacements:    []
+        Ranges:
+          - FilePath:        '../source/os/src/os_scheduler.c'
+            FileOffset:      3777
+            Length:          8
+      - Message:         'the last parameter in the range is ''period'''
+        FilePath:        '../source/os/src/os_scheduler.c'
+        FileOffset:      3812
+        Replacements:    []
+        Ranges:
+          - FilePath:        '../source/os/src/os_scheduler.c'
+            FileOffset:      3812
+            Length:          6
+      - Message:         ''
+        FilePath:        '../source/os/src/os_scheduler.c'
+        FileOffset:      3753
+        Replacements:    []
+      - Message:         '''os_scheduler_taskType_t'' and ''uint32_t'' may be implicitly converted: ''os_scheduler_taskType_t'' -> ''uint32_t'' (as ''unsigned int''), ''uint32_t'' (as ''unsigned int'') -> ''os_scheduler_taskType_t'''
+        FilePath:        '../source/os/src/os_scheduler.c'
+        FileOffset:      3787
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      3930
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      4860
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      6549
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  google-readability-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      6914
+      Replacements:
+        - FilePath:        '../source/os/src/os_scheduler.c'
+          Offset:          6914
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        '../source/os/src/os_scheduler.c'
+          Offset:          7006
+          Length:          0
+          ReplacementText: "\n}"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      7765
+      Replacements:    []
+    Notes:
+      - Message:         'inferred assignment of ID-dependent value from ID-dependent  [altera-id-dependent-backward-branch]'
+        FilePath:        '../source/os/src/os_scheduler.c'
+        FileOffset:      8712
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-id-dependent-backward-branch
+    DiagnosticMessage:
+      Message:         'backward branch (while loop) is ID-dependent due to variable reference to ''tmp'' and may cause performance degradation'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      8782
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      8803
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0xff is a magic number; consider replacing it with a named constant'
+      FilePath:        '../source/os/src/os_scheduler.c'
+      FileOffset:      9524
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

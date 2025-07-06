@@ -1,0 +1,3400 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\cmsis\include\core_cm4.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         too many errors emitted, stopping now
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header is missing header guard
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      0
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          0
+          Length:          0
+          ReplacementText: "#ifndef CORE_CM4_H\n#define CORE_CM4_H\n\n"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          109878
+          Length:          0
+          ReplacementText: "\n#endif\n"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__CORE_CM4_H_GENERIC'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      2189
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          2189
+          Length:          20
+          ReplacementText: CORE_CM4_H_GENERIC
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__CM4_CMSIS_VERSION_MAIN'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      3063
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          3063
+          Length:          24
+          ReplacementText: CM4_CMSIS_VERSION_MAIN
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__CM4_CMSIS_VERSION_SUB'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      3180
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          3180
+          Length:          23
+          ReplacementText: CM4_CMSIS_VERSION_SUB
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__CM4_CMSIS_VERSION'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      3297
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          3297
+          Length:          19
+          ReplacementText: CM4_CMSIS_VERSION
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__CORTEX_M'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      3489
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          3489
+          Length:          10
+          ReplacementText: CORTEX_M
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          10709
+          Length:          10
+          ReplacementText: CORTEX_M
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          12597
+          Length:          10
+          ReplacementText: CORTEX_M
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          14274
+          Length:          10
+          ReplacementText: CORTEX_M
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          13253
+          Length:          10
+          ReplacementText: CORTEX_M
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          15302
+          Length:          10
+          ReplacementText: CORTEX_M
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__ASM'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      3948
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          3948
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          9970
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          10230
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          10512
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          10734
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          11105
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          11412
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          11712
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          12156
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          12605
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          13197
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          14606
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          15328
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          16121
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          16618
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          17132
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          17680
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          18228
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          18536
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          19780
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          6584
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          6810
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          7037
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          7264
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          7491
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          7719
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          7948
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          8174
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          8401
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          8628
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          8855
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          9083
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          9313
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          9541
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          9770
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          9999
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          10228
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          10458
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          10687
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          10915
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          11144
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          11373
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          11602
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          11832
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          12059
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          12283
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          12508
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          12733
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          12958
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          13184
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          13409
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          13633
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          13858
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          14083
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          14308
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          14534
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          14760
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          15001
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          15624
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          15837
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          16052
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          16265
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          16495
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          16723
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          16965
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          17222
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          17585
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          18187
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          18671
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          18899
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          19141
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          19398
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          19761
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          20363
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          20845
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          21068
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          21292
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          22120
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          9066
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          9362
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          9678
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          10021
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          10347
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          10677
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          11007
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          11372
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          11746
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          12102
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          12466
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          12838
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          13169
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          13518
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          13813
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          14144
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          14490
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          14834
+          Length:          5
+          ReplacementText: ASM
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          15177
+          Length:          5
+          ReplacementText: ASM
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__INLINE'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      4065
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          4065
+          Length:          8
+          ReplacementText: INLINE
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__STATIC_INLINE'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      4182
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          4182
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          96807
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          97763
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          98161
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          98675
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          99167
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          99552
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          99916
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          100377
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          100830
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          101684
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          102724
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          104092
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          104923
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          106604
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          108364
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          108916
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          109459
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          9931
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          10191
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          10473
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          10695
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          11066
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          11373
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          11673
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          11976
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          12528
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          13010
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          13691
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          14529
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          14943
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          15734
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          16528
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          17029
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          17575
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          18123
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          18495
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmInstr.h'
+          Offset:          19706
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          6495
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          6721
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          6947
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          7175
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          7401
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          7629
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          7859
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          8085
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          8311
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          8539
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          8765
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          8993
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          9223
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          9451
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          9679
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          9909
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          10137
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          10367
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          10597
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          10825
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          11053
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          11283
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          11511
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          11741
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          11971
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          12195
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          12419
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          12645
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          12869
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          13095
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          13321
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          13545
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          13769
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          13995
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          14219
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          14445
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          14671
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          14897
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          15548
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          15746
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          15976
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          16174
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          16404
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          16632
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          16861
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          17117
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          17375
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          17976
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          18580
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          18808
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          19037
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          19293
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          19551
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          20152
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          20756
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          20980
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          21204
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cm4_simd.h'
+          Offset:          22022
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          9020
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          9315
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          9605
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          9962
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          10277
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          10607
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          10937
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          11294
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          11684
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          12024
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          12404
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          12765
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          13110
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          13466
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          13760
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          14071
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          14433
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          14759
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          15114
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          15556
+          Length:          15
+          ReplacementText: STATIC_INLINE
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          16117
+          Length:          15
+          ReplacementText: STATIC_INLINE
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  'clang-diagnostic-#warnings'
+    DiagnosticMessage:
+      Message:         '"Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      6097
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__FPU_USED'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      6208
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          6208
+          Length:          10
+          ReplacementText: FPU_USED
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          15632
+          Length:          10
+          ReplacementText: FPU_USED
+        - FilePath:        '../source/core/cmsis/include/core_cmFunc.h'
+          Offset:          16199
+          Length:          10
+          ReplacementText: FPU_USED
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-include-order
+    DiagnosticMessage:
+      Message:         '#includes are not sorted properly'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      7693
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          7702
+          Length:          86
+          ReplacementText: "<core_cm4_simd.h>               /* Compiler specific SIMD Intrinsics               */\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          7798
+          Length:          86
+          ReplacementText: "<core_cmFunc.h>                 /* Core Function Access                            */\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          7894
+          Length:          86
+          ReplacementText: "<core_cmInstr.h>                /* Core Instruction Access                         */\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          7990
+          Length:          86
+          ReplacementText: "<stdint.h>                      /* standard types definitions                      */\r"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__CORE_CM4_H_DEPENDANT'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      8183
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          8183
+          Length:          22
+          ReplacementText: CORE_CM4_H_DEPENDANT
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__I'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      9557
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          9557
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          16562
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          18312
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          18437
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          18562
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          18687
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          18812
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          34725
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          37138
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          41169
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          41540
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          41684
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          41797
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          41910
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          42023
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          42136
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          42249
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          42362
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          42475
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          42588
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          42701
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          42814
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          42927
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          48494
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          59527
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          59742
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          59889
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          59968
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          60060
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          60172
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          60253
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          60676
+          Length:          3
+          ReplacementText: I
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          60758
+          Length:          3
+          ReplacementText: I
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__O'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      9663
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          9663
+          Length:          3
+          ReplacementText: O
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          15825
+          Length:          3
+          ReplacementText: O
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          40117
+          Length:          3
+          ReplacementText: O
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          40138
+          Length:          3
+          ReplacementText: O
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          40251
+          Length:          3
+          ReplacementText: O
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          40364
+          Length:          3
+          ReplacementText: O
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          41056
+          Length:          3
+          ReplacementText: O
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          41427
+          Length:          3
+          ReplacementText: O
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          85268
+          Length:          3
+          ReplacementText: O
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''__IO'', which is a reserved identifier'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      9761
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          9761
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          14967
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          15110
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          15252
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          15395
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          15538
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          15681
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          16687
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          16812
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          16937
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          17062
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          17187
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          17312
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          17437
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          17562
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          17687
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          17812
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          17937
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          18062
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          18187
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          18968
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          34836
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          36817
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          36924
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          37031
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          40621
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          40766
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          40911
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          41282
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          47703
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          47816
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          47929
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          48042
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          48155
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          48268
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          48381
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          48607
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          48720
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          48833
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          48977
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          49090
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          49203
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          49347
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          49460
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          49573
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          49717
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          49830
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          49943
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          59000
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          59113
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          59251
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          59392
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          59634
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          60345
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          60473
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          60558
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          85152
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          85384
+          Length:          4
+          ReplacementText: IO
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          85500
+          Length:          4
+          ReplacementText: IO
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 32 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      10691
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          11630
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(32)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(32)))" to align struct '''' to 32 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      10691
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 8 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      11946
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          12158
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(8)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(8)))" to align struct '''' to 8 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      11946
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 64 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      12481
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          13714
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(64)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(64)))" to align struct '''' to 64 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      12481
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 16 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      14017
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          14425
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct '''' to 16 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      14017
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 128 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      14954
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          15935
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(128)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(128)))" to align struct '''' to 128 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      14954
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '8 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      14986
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '24 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      15102
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '8 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      15129
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '24 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      15244
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '8 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      15271
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '24 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      15387
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '8 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      15414
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '24 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      15530
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '8 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      15557
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '56 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      15673
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '240 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      15698
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '644 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      15816
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 128 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      16549
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          19092
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(128)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(128)))" to align struct '''' to 128 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      16549
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '12 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      17330
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '5 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      18961
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 16 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      34681
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          34946
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct '''' to 16 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      34681
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 16 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      36804
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          37244
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct '''' to 16 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      36804
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 4096 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      40104
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          43039
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(4096)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(4096)))" to align struct '''' to 4096 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      40104
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '32 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      40484
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '864 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      40612
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '15 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      40758
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '15 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      40903
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '29 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      41048
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '43 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      41419
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '6 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      41677
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 128 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      47690
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          50055
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(128)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(128)))" to align struct '''' to 128 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      47690
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 128 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      58987
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          60841
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(128)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(128)))" to align struct '''' to 128 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      58987
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '55 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      59384
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '131 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      59518
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '759 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      59880
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '39 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      60465
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '8 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      60669
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 16 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      85139
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          85615
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct '''' to 16 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      85139
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-init-variables
+    DiagnosticMessage:
+      Message:         'variable ''reg_value'' is not initialized'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      96892
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          96901
+          Length:          0
+          ReplacementText: ' = 0'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x07 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      96961
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      97042
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''SCB'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94295
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      97163
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SCB_AIRCR_VECTKEY_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      23573
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      23585
+            Length:          21
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      97187
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SCB_AIRCR_PRIGROUP_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      24342
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      24349
+            Length:          22
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      97345
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x5FA is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      97355
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      97407
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      97427
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '8 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      97427
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      97512
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''SCB'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94295
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      97833
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      97834
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''SCB'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94295
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      97847
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SCB_AIRCR_PRIGROUP_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      24342
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      24349
+            Length:          22
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''IRQn_Type'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      98197
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      98317
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''NVIC'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94523
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      98328
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      98357
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '5 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      98357
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      98373
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      98373
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x1F is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      98417
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''IRQn_Type'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      98712
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      98734
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''NVIC'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94523
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      98746
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      98766
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '5 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      98766
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      98773
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      98773
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      98779
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      98798
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x1F is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      98798
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''IRQn_Type'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99211
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99253
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      99289
+          Length:          32
+    Notes:
+      - Message:         'expanded from macro ''NVIC'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94522
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99253
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''NVIC'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94523
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99264
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      99284
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '5 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99284
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99290
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      99290
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99296
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      99315
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x1F is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99315
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''IRQn_Type'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99592
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99614
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''NVIC'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94523
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99626
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      99646
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '5 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99646
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99653
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      99653
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99659
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      99678
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x1F is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99678
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''IRQn_Type'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99958
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99980
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''NVIC'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94523
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      99992
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      100012
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '5 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      100012
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      100019
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      100019
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      100025
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      100044
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x1F is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      100044
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''IRQn_Type'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      100417
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      100458
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      100494
+          Length:          32
+    Notes:
+      - Message:         'expanded from macro ''NVIC'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94522
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      100458
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''NVIC'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94523
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      100469
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      100489
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '5 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      100489
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      100495
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      100495
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      100501
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      100520
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x1F is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      100520
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-easily-swappable-parameters
+    DiagnosticMessage:
+      Message:         '2 adjacent parameters of ''NVIC_SetPriority'' of convertible types are easily swapped by mistake'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      100868
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      100868
+          Length:          33
+    Notes:
+      - Message:         'the first parameter in the range is ''IRQn'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      100878
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      100878
+            Length:          4
+      - Message:         'the last parameter in the range is ''priority'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      100893
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      100893
+            Length:          8
+      - Message:         ''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      100868
+        Replacements:    []
+      - Message:         '''int'' and ''uint32_t'' may be implicitly converted: ''int'' -> ''uint32_t'' (as ''unsigned int''), ''uint32_t'' (as ''unsigned int'') -> ''int'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      100884
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''IRQn_Type'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      100868
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-branch-clone
+    DiagnosticMessage:
+      Message:         if with identical then and else branches
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      100909
+      Replacements:    []
+    Notes:
+      - Message:         else branch starts here
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      101071
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      100987
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      101131
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown type name ''IRQn_Type'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      101726
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-branch-clone
+    DiagnosticMessage:
+      Message:         if with identical then and else branches
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      101750
+      Replacements:    []
+    Notes:
+      - Message:         else branch starts here
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      101911
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      101833
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      101986
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-easily-swappable-parameters
+    DiagnosticMessage:
+      Message:         '2 adjacent parameters of ''NVIC_EncodePriority'' of similar type (''uint32_t'') are easily swapped by mistake'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      102770
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      102770
+          Length:          48
+    Notes:
+      - Message:         'the first parameter in the range is ''PriorityGroup'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      102779
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      102779
+            Length:          13
+      - Message:         'the last parameter in the range is ''PreemptPriority'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      102803
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      102803
+            Length:          15
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      102877
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      102893
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x07 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      102893
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-init-variables
+    DiagnosticMessage:
+      Message:         'variable ''PreemptPriorityBits'' is not initialized'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      102962
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          102981
+          Length:          0
+          ReplacementText: ' = 0'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-init-variables
+    DiagnosticMessage:
+      Message:         'variable ''SubPriorityBits'' is not initialized'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      102995
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          103010
+          Length:          0
+          ReplacementText: ' = 0'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      103065
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      103085
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      103172
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      103224
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      103270
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      103288
+          Length:          34
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      103290
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      103290
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      103360
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      103378
+          Length:          34
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      103380
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      103380
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-easily-swappable-parameters
+    DiagnosticMessage:
+      Message:         '2 adjacent parameters of ''NVIC_DecodePriority'' of similar type (''uint32_t'') are easily swapped by mistake'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      104134
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      104134
+          Length:          41
+    Notes:
+      - Message:         'the first parameter in the range is ''Priority'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      104143
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      104143
+            Length:          8
+      - Message:         'the last parameter in the range is ''PriorityGroup'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      104162
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      104162
+            Length:          13
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-easily-swappable-parameters
+    DiagnosticMessage:
+      Message:         '2 adjacent parameters of ''NVIC_DecodePriority'' of similar type (''uint32_t *'') are easily swapped by mistake'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      104177
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      104177
+          Length:          50
+    Notes:
+      - Message:         'the first parameter in the range is ''pPreemptPriority'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      104187
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      104187
+            Length:          16
+      - Message:         'the last parameter in the range is ''pSubPriority'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      104215
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      104215
+            Length:          12
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      104264
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      104280
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x07 is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      104280
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-init-variables
+    DiagnosticMessage:
+      Message:         'variable ''PreemptPriorityBits'' is not initialized'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      104349
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          104368
+          Length:          0
+          ReplacementText: ' = 0'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-init-variables
+    DiagnosticMessage:
+      Message:         'variable ''SubPriorityBits'' is not initialized'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      104382
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          104397
+          Length:          0
+          ReplacementText: ' = 0'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      104452
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      104472
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'use of undeclared identifier ''__NVIC_PRIO_BITS'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      104559
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      104654
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      104686
+          Length:          34
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      104688
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      104688
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      104745
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      104777
+          Length:          34
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      104779
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      104779
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      105200
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''SCB'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94295
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      105215
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      105215
+          Length:          32
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-magic-numbers
+    DiagnosticMessage:
+      Message:         '0x5FA is a magic number; consider replacing it with a named constant'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      105216
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      105216
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      105216
+          Length:          5
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      105274
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''SCB'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94295
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      105287
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SCB_AIRCR_PRIGROUP_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      24342
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      24349
+            Length:          22
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      105331
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SCB_AIRCR_SYSRESETREQ_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      24599
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      24606
+            Length:          25
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      105521
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      105529
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          105529
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          105604
+          Length:          0
+          ReplacementText: "\n}"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      106684
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SysTick_LOAD_RELOAD_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      38569
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      38583
+            Length:          23
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      106708
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          106708
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          106756
+          Length:          0
+          ReplacementText: "\n}"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      106762
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''SysTick'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94409
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      106957
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''SysTick'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94409
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      107058
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''SysTick'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94409
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      107075
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SysTick_CTRL_CLKSOURCE_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      37753
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      37760
+            Length:          26
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      107124
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SysTick_CTRL_TICKINT_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      38013
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      38020
+            Length:          24
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      107173
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''SysTick_CTRL_ENABLE_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      38270
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      38277
+            Length:          23
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  cppcoreguidelines-avoid-non-const-global-variables
+    DiagnosticMessage:
+      Message:         'variable ''ITM_RxBuffer'' is non-const and globally accessible, consider making it const'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      107727
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  readability-identifier-length
+    DiagnosticMessage:
+      Message:         'parameter name ''ch'' is too short, expected at least 3 characters'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      108412
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      108427
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ITM'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94637
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      108438
+      Replacements:    []
+      Ranges:
+        - FilePath:        ''
+          FileOffset:      0
+          Length:          0
+    Notes:
+      - Message:         'expanded from macro ''ITM_TCR_ITMENA_Msk'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      45583
+        Replacements:    []
+        Ranges:
+          - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+            FileOffset:      45590
+            Length:          18
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      108509
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ITM'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94637
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-signed-bitwise
+    DiagnosticMessage:
+      Message:         use of a signed integer operand with a binary bitwise operator
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      108521
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      108528
+          Length:          1
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-unroll-loops
+    DiagnosticMessage:
+      Message:         'kernel performance could be improved by unrolling this loop with a ''#pragma unroll'' directive'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      108601
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      108608
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ITM'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94637
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  hicpp-braces-around-statements
+    DiagnosticMessage:
+      Message:         statement should be inside braces
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      108630
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          108630
+          Length:          0
+          ReplacementText: ' {'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          108631
+          Length:          0
+          ReplacementText: "\n}"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  performance-no-int-to-ptr
+    DiagnosticMessage:
+      Message:         integer to pointer cast pessimizes optimization opportunities
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      108637
+      Replacements:    []
+    Notes:
+      - Message:         'expanded from macro ''ITM'''
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+        FileOffset:      94637
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  readability-identifier-length
+    DiagnosticMessage:
+      Message:         'variable name ''ch'' is too short, expected at least 3 characters'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      108976
+      Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-else-after-return
+    DiagnosticMessage:
+      Message:         'do not use ''else'' after ''return'''
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+      FileOffset:      109636
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          109636
+          Length:          5
+          ReplacementText: ''
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          Offset:          109641
+          Length:          84
+          ReplacementText: "\n    return (1);                                 /*    character available */\r\n "
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/cmsis/include/core_cm4.h'
+          FileOffset:      109636
+          Length:          4
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

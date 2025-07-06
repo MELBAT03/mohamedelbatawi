@@ -1,0 +1,19 @@
+#ifndef APP_NM_TUBCLEAN_USER_INTERFACE_H
+#define APP_NM_TUBCLEAN_USER_INTERFACE_H
+
+#include "def.h"
+#include "app_nm_wash_user_interface.h"
+
+typedef struct app_nm_tubclean_userInterface_defaults_data
+{
+    app_nm_wash_userInterface_waterTempSelection_t defaultWaterTemp;
+    app_nm_wash_userInterface_steamTechSelection_t defaultSteamTech;
+} app_nm_tubclean_userInterface_defaults_data_t;
+
+void app_nm_tubclean_userInterface_process(uint32_t period);
+
+const app_nm_tubclean_userInterface_defaults_data_t *app_nm_tubclean_userInterface_defaults_data_get(void);
+const app_nm_tubclean_userInterface_defaults_data_t *app_nm_tubclean_userInterface_lowLimitDefaults_data_get(void);
+const app_nm_tubclean_userInterface_defaults_data_t *app_nm_tubclean_userInterface_highLimitDefaults_data_get(void);
+
+#endif

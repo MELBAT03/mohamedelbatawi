@@ -1,0 +1,207 @@
+---
+MainSourceFile: 'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\core\ht66f2362\inc\ht2362.h'
+Diagnostics:
+  - DiagnosticName: clang-diagnostic-error
+    DiagnosticMessage:
+      Message: "unknown argument: '-mapcs-frame'"
+      FilePath: ""
+      FileOffset: 0
+      Replacements: []
+    Level: Error
+    BuildDirectory: ""
+  - DiagnosticName: clang-diagnostic-error
+    DiagnosticMessage:
+      Message: "unknown argument: '-mthumb-interwork'"
+      FilePath: ""
+      FileOffset: 0
+      Replacements: []
+    Level: Error
+    BuildDirectory: ""
+  - DiagnosticName: llvm-header-guard
+    DiagnosticMessage:
+      Message: header guard does not follow preferred style
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+      FileOffset: 8
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 8
+          Length: 16
+          ReplacementText: "D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_CORE_HT66F2362_INC_HT2362_H"
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 34
+          Length: 16
+          ReplacementText: "D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_CORE_HT66F2362_INC_HT2362_H"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: llvm-include-order
+    DiagnosticMessage:
+      Message: "#includes are not sorted properly"
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+      FileOffset: 75
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 84
+          Length: 8
+          ReplacementText: "\"HT66F2362.h\"\r"
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 102
+          Length: 14
+          ReplacementText: "\"board.h\"\r"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: clang-diagnostic-error
+    DiagnosticMessage:
+      Message: "'HT66F2362.h' file not found"
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+      FileOffset: 102
+      Replacements: []
+      Ranges:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          FileOffset: 102
+          Length: 13
+    Level: Error
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+      FileOffset: 2857
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 2857
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 2860
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+      FileOffset: 2867
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 2867
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 2872
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+      FileOffset: 2884
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 2884
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 2887
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+      FileOffset: 2962
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 2962
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 2965
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+      FileOffset: 2972
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 2972
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 2977
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+      FileOffset: 2989
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 2989
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 2992
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+      FileOffset: 3056
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 3056
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 3059
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+      FileOffset: 3065
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 3065
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 3068
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"
+  - DiagnosticName: bugprone-macro-parentheses
+    DiagnosticMessage:
+      Message: macro argument should be enclosed in parentheses
+      FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+      FileOffset: 16225
+      Replacements:
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 16225
+          Length: 0
+          ReplacementText: "("
+        - FilePath: "d:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/core/ht66f2362/inc/ht2362.h"
+          Offset: 16229
+          Length: 0
+          ReplacementText: ")"
+    Level: Warning
+    BuildDirectory: "D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build"

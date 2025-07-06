@@ -1,0 +1,134 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\mcal\renesas33c\inc\mcal_ren33c.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+      FileOffset:      8
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+          Offset:          8
+          Length:          14
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_MCAL_RENESAS33C_INC_MCAL_REN33C_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+          Offset:          32
+          Length:          14
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_MCAL_RENESAS33C_INC_MCAL_REN33C_H'
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+          Offset:          12519
+          Length:          26
+          ReplacementText: 'endif // D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_MCAL_RENESAS33C_INC_MCAL_REN33C_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         '''ren33c_adc.h'' file not found'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+      FileOffset:      59
+      Replacements:    []
+      Ranges:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+          FileOffset:      59
+          Length:          14
+    Level:           Error
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-include-order
+    DiagnosticMessage:
+      Message:         '#includes are not sorted properly'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+      FileOffset:      75
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+          Offset:          84
+          Length:          14
+          ReplacementText: "\"Flash_API_R8C_35C.h\"\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+          Offset:          108
+          Length:          15
+          ReplacementText: "\"ren33c_cg.h\"\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+          Offset:          133
+          Length:          25
+          ReplacementText: "\"ren33c_dac.h\"\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+          Offset:          168
+          Length:          16
+          ReplacementText: "\"ren33c_ext_interrupt.h\"\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+          Offset:          194
+          Length:          15
+          ReplacementText: "\"ren33c_gpio.h\"\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+          Offset:          219
+          Length:          16
+          ReplacementText: "\"ren33c_onChip_vdet1.h\"\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+          Offset:          245
+          Length:          16
+          ReplacementText: "\"ren33c_pwm.h\"\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+          Offset:          271
+          Length:          16
+          ReplacementText: "\"ren33c_tmra.h\"\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+          Offset:          297
+          Length:          22
+          ReplacementText: "\"ren33c_tmrb.h\"\r"
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+          Offset:          329
+          Length:          24
+          ReplacementText: "\"ren33c_uart.h\"\r"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 32 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+      FileOffset:      2176
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+          Offset:          2423
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(32)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(32)))" to align struct '''' to 32 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+        FileOffset:      2176
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  altera-struct-pack-align
+    DiagnosticMessage:
+      Message:         'accessing fields in struct '''' is inefficient due to poor alignment; currently aligned to 4 bytes, but recommended alignment is 16 bytes'
+      FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+      FileOffset:      11974
+      Replacements:
+        - FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+          Offset:          12343
+          Length:          0
+          ReplacementText: ' __attribute__((aligned(16)))'
+    Notes:
+      - Message:         'use "__attribute__((aligned(16)))" to align struct '''' to 16 bytes'
+        FilePath:        'd:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/source/mcal/renesas33c/inc/mcal_ren33c.h'
+        FileOffset:      11974
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

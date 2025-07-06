@@ -1,0 +1,65 @@
+---
+MainSourceFile:  'd:\projects\wm\sharp_ddm\software\wm-sharp15ddm_base-22.06\software\source\bsp\bsp_tmpm370.h'
+Diagnostics:
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mapcs-frame'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  clang-diagnostic-error
+    DiagnosticMessage:
+      Message:         'unknown argument: ''-mthumb-interwork'''
+      FilePath:        ''
+      FileOffset:      0
+      Replacements:    []
+    Level:           Error
+    BuildDirectory:  ''
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header is missing header guard
+      FilePath:        '../source/bsp/bsp_tmpm370.h'
+      FileOffset:      0
+      Replacements:
+        - FilePath:        '../source/bsp/bsp_tmpm370.h'
+          Offset:          0
+          Length:          0
+          ReplacementText: "#ifndef D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_BSP_BSP_TMPM370_H\n#define D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_SOURCE_BSP_BSP_TMPM370_H\n\n"
+        - FilePath:        '../source/bsp/bsp_tmpm370.h'
+          Offset:          7303
+          Length:          0
+          ReplacementText: "\n#endif\n"
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  llvm-header-guard
+    DiagnosticMessage:
+      Message:         header guard does not follow preferred style
+      FilePath:        '../source/bsp/bsp_tmpm370.h'
+      FileOffset:      8
+      Replacements:
+        - FilePath:        '../source/bsp/bsp_tmpm370.h'
+          Offset:          8
+          Length:          14
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_BUILD____SOURCE_BSP_BSP_TMPM370_H'
+        - FilePath:        '../source/bsp/bsp_tmpm370.h'
+          Offset:          32
+          Length:          14
+          ReplacementText: 'D:_PROJECTS_WM_SHARP_DDM_SOFTWARE_WM_SHARP15DDM_BASE_22_06_SOFTWARE_BUILD____SOURCE_BSP_BSP_TMPM370_H'
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+  - DiagnosticName:  bugprone-reserved-identifier
+    DiagnosticMessage:
+      Message:         'declaration uses identifier ''_BSP_TMPM370_H'', which is a reserved identifier'
+      FilePath:        '../source/bsp/bsp_tmpm370.h'
+      FileOffset:      32
+      Replacements:    []
+    Notes:
+      - Message:         this fix will not be applied because it overlaps with another fix
+        FilePath:        ''
+        FileOffset:      0
+        Replacements:    []
+    Level:           Warning
+    BuildDirectory:  'D:/projects/wm/sharp_ddm/software/wm-sharp15ddm_base-22.06/software/build'
+...

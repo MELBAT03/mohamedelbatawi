@@ -1,0 +1,176 @@
+#ifndef HANDLER_DISPLAY_H
+#define HANDLER_DISPLAY_H
+
+typedef enum
+{
+    SSD_DIGIT_0_ID,
+    SSD_DIGIT_1_ID,
+    SSD_DIGIT_2_ID,
+    SSD_DIGIT_3_ID
+} ssdID_t;
+
+typedef enum
+{
+    LED_COURSE_WHITE_ID,
+    LED_COURSE_LIGHT_ID,
+    LED_COURSE_DARK_ID,
+    LED_COURSE_ECO_ID,
+    LED_COURSE_COTTON_ID,
+    LED_COURSE_JEANS_ID,
+    LED_COURSE_DELICATE_ID,
+    LED_COURSE_SPORTS_ID,
+    LED_COURSE_MIX_ID,
+    LED_COURSE_ALERGY_ID,
+    LED_COURSE_BEDDING_ID,
+    LED_COURSE_BABYCARE_ID,
+
+    LED_TEMP_BUTTON_ID,
+    LED_TEMP_COLD_ID,
+    LED_TEMP_WARM_ID,
+    LED_TEMP_HOT_ID,
+
+    LED_WATER_LEVEL_BUTTON_ID,
+    LED_WATER_LEVEL_1_ID,
+    LED_WATER_LEVEL_2_ID,
+    LED_WATER_LEVEL_3_ID,
+    LED_WATER_LEVEL_4_ID,
+    LED_WATER_LEVEL_5_ID,
+
+    LED_WASH_BUTTON_ID,
+    LED_WASH_ID,
+
+    LED_DELAY_START_BUTTON_ID,
+    LED_DELAY_START_ID,
+
+    LED_LID_LOCK_ID,
+    LED_CHILD_LOCK_ID,
+
+    LED_GEL_DETERGENT_BUTTON_ID,
+    LED_GEL_DETERGENT_ID,
+
+    LED_RINSE_BUTTON_ID,
+    LED_RINSE_ID,
+
+    LED_TUBCLEAN_BUTTON_ID,
+    LED_TUBCLEAN_ID,
+
+    LED_SPIN_BUTTON_ID,
+    LED_SPIN_ID,
+
+    LED_STEAM_TECH_BUTTON_ID,
+    LED_STEAM_TECH_ID,
+
+    LED_STAIN_LEVEL_BUTTON_ID,
+    LED_STAIN_LEVEL_LIGHT_ID,
+    LED_STAIN_LEVEL_NORMAL_ID,
+    LED_STAIN_LEVEL_HEAVY_ID,
+
+    LED_HEATER_ID,
+
+    LED_POWDER_DETERGENT_ID,
+
+    LED_SOFTNER_ID,
+
+    LED_MIN_ID,
+
+    LED_TIMES_ID,
+
+    LED_START_BUTTON_ID,
+    LED_START_ID,
+
+    LED_ON_OFF_BUTTON_ID,
+    LED_ON_OFF_ID,
+
+    // LED_SOAK_BUTTON_ID = LED_GEL_DETERGENT_BUTTON_ID,
+    // LED_SOAK_ID = LED_GEL_DETERGENT_ID,
+
+    // LED_EXTRA_SPIN_BUTTON_ID = LED_STEAM_TECH_BUTTON_ID,
+    // LED_EXTRA_SPIN_ID = LED_STEAM_TECH_ID,
+
+    LED_NUM
+} ledID_t;
+
+typedef enum handler_display_ledGroup
+{
+    HANDLER_DISPLAY_WASH_TIME_LED_GROUP,
+    HANDLER_DISPLAY_WASH_TIME_BUTTON_LED_GROUP,
+    HANDLER_DISPLAY_WATER_TEMP_LED_GROUP,
+    HANDLER_DISPLAY_WATER_TEMP_BUTTON_LED_GROUP,
+    HANDLER_DISPLAY_WATER_LEVEL_LED_GROUP,
+    HANDLER_DISPLAY_WATER_LEVEL_BUTTON_LED_GROUP,
+    HANDLER_DISPLAY_EXTRA_SPIN_LED_GROUP,
+    HANDLER_DISPLAY_CHILD_LOCK_LED_GROUP,
+    HANDLER_DISPLAY_DELAY_START_LED_GROUP,
+    HANDLER_DISPLAY_DELAY_START_BUTTON_LED_GROUP,
+    HANDLER_DISPLAY_SPIN_LED_GROUP,
+    HANDLER_DISPLAY_SPIN_BUTTON_LED_GROUP,
+    HANDLER_DISPLAY_RINSE_LED_GROUP,
+    HANDLER_DISPLAY_RINSE_BUTTON_LED_GROUP,
+    HANDLER_DISPLAY_COURSE_LED_GROUP,
+    HANDLER_DISPLAY_ANTI_WRINKLE_LED_GROUP,
+    HANDLER_DISPLAY_SOAK_LED_GROUP,
+    HANDLER_DISPLAY_STAIN_LEVEL_LED_GROUP,
+    HANDLER_DISPLAY_STAIN_LEVEL_BUTTON_LED_GROUP,
+    HANDLER_DISPLAY_LID_LOCK_LED_GROUP,
+    HANDLER_DISPLAY_OPERATION_LED_GROUP,
+    HANDLER_DISPLAY_STEAM_LED_GROUP,
+    HANDLER_DISPLAY_STEAM_TECH_LED_GROUP,
+    HANDLER_DISPLAY_STEAM_TECH_BUTTON_LED_GROUP,
+    HANDLER_DISPLAY_DRY_TIME_LED_GROUP,
+    HANDLER_DISPLAY_GEL_DETERGENT_LED_GROUP,
+    HANDLER_DISPLAY_GEL_DETERGENT_BUTTON_LED_GROUP,
+    HANDLER_DISPLAY_TUBCLEAN_LED_GROUP,
+    HANDLER_DISPLAY_TUBCLEAN_BUTTON_LED_GROUP,
+    HANDLER_DISPLAY_HEATER_LED_GROUP,
+    HANDLER_DISPLAY_SOFTNER_LED_GROUP,
+    HANDLER_DISPLAY_POWDER_DETERGENT_LED_GROUP,
+    HANDLER_DISPLAY_MIN_LED_GROUP,
+    HANDLER_DISPLAY_TIMES_LED_GROUP,
+    HANDLER_DISPLAY_START_LED_GROUP,
+    HANDLER_DISPLAY_ON_OFF_LED_GROUP
+} handler_display_ledGroup_t;
+
+typedef enum handler_display_ssdFormat
+{
+    FORMAT_HOURS,
+    FORMAT_NUMBERS,
+    FORMAT_NUMBERS_WITH_DOUBLE_DOT,
+    FORMAT_NUMBERS_TEST,
+
+} handler_display_ssdFormat_t;
+
+typedef enum handler_display_ssd_state
+{
+    SSD_STATUS_INIT = 0,
+    SSD_STATUS_OFF,
+    SSD_STATUS_ON,
+    SSD_STATUS_FINISH
+} handler_display_ssd_state_t;
+
+typedef enum handler_display_led_state
+{
+    LED_STATUS_OFF,
+    LED_STATUS_ON
+} handler_display_led_state_t;
+
+void handler_display_init(void);
+uint8_t handler_display_dimState_get(void);
+void handler_display_dimState_set(uint8_t state);
+uint8_t handler_display_ledState_get(uint8_t index);
+void handler_display_ledState_set(uint8_t value, uint8_t index);
+void handler_display_ssd_set(uint8_t digitID, uint8_t symbol);
+uint8_t handler_display_ssd_get(uint8_t digitID);
+void handler_display_ssdDP_set(uint8_t value);
+uint8_t handler_display_ssdDP_get(void);
+void handler_display_ssd_clear(void);
+void handler_display_led_clear(void);
+void handler_display_clear(void);
+uint8_t handler_display_error_check(void);
+void handler_display_courseLedSequence_traverse(uint8_t id);
+void handler_display_ledGroup_set(handler_display_ledGroup_t ledGroup, uint32_t value);
+void handler_display_end(void);
+uint8_t handler_display_version_get(void);
+
+void handler_display_fire(void);
+
+#endif

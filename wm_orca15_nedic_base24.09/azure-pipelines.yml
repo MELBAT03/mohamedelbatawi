@@ -1,0 +1,28 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+trigger:
+- master
+ 
+pool:
+  name: default
+ 
+steps:
+- checkout: self
+  submodules: true
+  persistCredentials: true
+  
+- script: |
+   # Set your compilier path in the environment variables
+   set PATH=C:\iar\ewarm-9.60.3\common\bin
+   
+   #Define a variable for the name og your project
+   set Project_Name=orca.ewp
+   
+   #Go to your Project directory
+   cd $(Build.SourcesDirectory)\software\build\iar
+   
+   #Run your Compilier in a Debug Mode 
+   IarBuild.exe %Project_Name%  -build Debug
+  displayName: 'Build Script'
